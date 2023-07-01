@@ -21,12 +21,14 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 var src_exports = {};
 __export(src_exports, {
   ARRAY: () => ARRAY,
+  ASC: () => ASC,
   DATE_LENGTH: () => DATE_LENGTH,
   DATE_TIME_LENGTH: () => DATE_TIME_LENGTH,
   DAY: () => DAY,
   DAYS_IN_MONTH: () => DAYS_IN_MONTH,
   DAYS_IN_WEEK: () => DAYS_IN_WEEK,
   DAYS_IN_YEAR: () => DAYS_IN_YEAR,
+  DESC: () => DESC,
   FOREVER: () => FOREVER,
   FRIDAY: () => FRIDAY,
   GB: () => GB,
@@ -68,7 +70,9 @@ __export(src_exports, {
   WEDNESDAY: () => WEDNESDAY,
   WEEK: () => WEEK,
   WEEKS_IN_YEAR: () => WEEKS_IN_YEAR,
-  YES: () => YES
+  YES: () => YES,
+  orderBy: () => orderBy,
+  orderByDescending: () => orderByDescending
 });
 module.exports = __toCommonJS(src_exports);
 
@@ -178,15 +182,36 @@ var OpState = /* @__PURE__ */ ((OpState2) => {
   OpState2["ERROR"] = `error`;
   return OpState2;
 })(OpState || {});
+
+// src/order-by.ts
+var ASC = 1;
+var DESC = -1;
+var doOrderBy = (iterable, dir, selector) => {
+  return Array.from(iterable).sort((a, b) => {
+    a = selector(a);
+    b = selector(b);
+    if (a < b) {
+      return -dir;
+    }
+    if (a > b) {
+      return dir;
+    }
+    return 0;
+  });
+};
+var orderBy = (iterable, selector = IDENTITY) => doOrderBy(iterable, ASC, selector);
+var orderByDescending = (iterable, selector = IDENTITY) => doOrderBy(iterable, DESC, selector);
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
   ARRAY,
+  ASC,
   DATE_LENGTH,
   DATE_TIME_LENGTH,
   DAY,
   DAYS_IN_MONTH,
   DAYS_IN_WEEK,
   DAYS_IN_YEAR,
+  DESC,
   FOREVER,
   FRIDAY,
   GB,
@@ -228,5 +253,7 @@ var OpState = /* @__PURE__ */ ((OpState2) => {
   WEDNESDAY,
   WEEK,
   WEEKS_IN_YEAR,
-  YES
+  YES,
+  orderBy,
+  orderByDescending
 });
