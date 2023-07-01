@@ -1,9 +1,9 @@
 {
   "name": "@itshkins/js-utils",
-  "version": "1.1.17",
+  "version": "1.1.18",
   "description": "DOM utils",
   "type": "module",
-  "main": "./dist/js-utils.cjs.js",
+  "main": "./dist/js-utils-cjs.js",
   "exports": {
     ".": "./dist/js-utils-cjs"
   },
