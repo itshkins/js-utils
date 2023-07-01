@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "isolatedModules": false,
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "baseUrl": "src",
+    "sourceRoot": "./src/",
+    "rootDir": "./src/",
+    "outFile": "./dist/js-utils.js",
+    "sourceMap": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noEmit": false,
+    "removeComments": true,
+    "preserveConstEnums": false
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.test.ts",
+    "node_modules"
+  ]
+}
