@@ -1,12 +1,9 @@
 {
   "name": "@itshkins/js-utils",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "description": "DOM utils",
   "type": "module",
-  "main": "./dist/js-utils.mjs",
-  "exports": {
-    ".": "./dist/js-utils.mjs"
-  },
+  "main": "./dist/js-utils.cjs",
   "scripts": {
     "build": "npm run build:iife && npm run build:cjs && npm run build:esm && npm run build:dts && rm dist/index.js",
     "build:iife": "esbuild ./src/index.ts --outfile=./dist/js-utils.js --bundle --platform=browser --packages=external --global-name=jsUtils",
