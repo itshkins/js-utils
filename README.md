@@ -31,7 +31,7 @@ console.log(orderByDescending([value5, value3, value9, value0], selector)) // [v
 
 ```html
 
-<script src="./node_modules/@itshkins/js-utils/dist/js-utils-iife.js"></script>
+<script src="./node_modules/@itshkins/js-utils/dist/js-utils.js"></script>
 
 <script>{
   console.log(jsUtils.orderBy([5, 3, 9, 0])) // [0, 3, 5, 9]
