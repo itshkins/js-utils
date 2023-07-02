@@ -8,7 +8,7 @@ npm i @itshkins/js-utils@latest
 
 ## Usage
 
-### ESM
+### Node
 
 ```js
 import {orderBy, orderByDescending} from '@itshkins/js-utils'
@@ -31,30 +31,7 @@ console.log(orderBy([value5, value3, value9, value0], selector)) // [value0, val
 console.log(orderByDescending([value5, value3, value9, value0], selector)) // [value9, value5, value3, value0]
 ```
 
-### CommonJS
-
-```js
-const {orderBy, orderByDescending} = require('@itshkins/js-utils/dist/js-utils.cjs')
-
-console.log(orderBy([5, 3, 9, 0])) // [0, 3, 5, 9]
-console.log(orderByDescending([5, 3, 9, 0])) // [9, 5, 3, 0]
-```
-
-```js
-const {orderBy, orderByDescending} = require('@itshkins/js-utils/dist/js-utils.cjs')
-
-const value5 = {value: 5}
-const value3 = {value: 3}
-const value9 = {value: 9}
-const value0 = {value: 0}
-
-const selector = (it) => it.value
-
-console.log(orderBy([value5, value3, value9, value0], selector)) // [value0, value3, value5, value9])
-console.log(orderByDescending([value5, value3, value9, value0], selector)) // [value9, value5, value3, value0]
-```
-
-### IIFE
+### Browser
 
 ```html
 
