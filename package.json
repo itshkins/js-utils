@@ -1,16 +1,18 @@
 {
   "name": "@itshkins/js-utils",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "description": "DOM utils",
   "type": "module",
-  "main": "./dist/js-utils-cjs.js",
+  "main": "./dist/js-utils.mjs",
   "exports": {
-    ".": "./dist/js-utils-cjs"
+    ".": "./dist/js-utils.mjs"
   },
   "scripts": {
-    "build": "npm run build:iife && npm run build:cjs",
-    "build:iife": "esbuild ./src/index.ts --outfile=./dist/js-utils-iife.js --bundle --platform=browser --packages=external --global-name=jsUtils",
-    "build:cjs": "esbuild ./src/index.ts --outfile=./dist/js-utils-cjs.js --bundle --platform=node --packages=external",
+    "build": "npm run build:iife && npm run build:cjs && npm run build:esm && npm run build:dts && rm dist/index.js",
+    "build:iife": "esbuild ./src/index.ts --outfile=./dist/js-utils.js --bundle --platform=browser --packages=external --global-name=jsUtils",
+    "build:cjs": "esbuild ./src/index.ts --outfile=./dist/js-utils.cjs --bundle --platform=node --format=cjs --packages=external",
+    "build:esm": "esbuild ./src/index.ts --outfile=./dist/js-utils.mjs --bundle --platform=node --format=esm --packages=external",
+    "build:dts": "node esbuild",
     "test": "npm run test:unit",
     "test:unit": "jest src"
   },
