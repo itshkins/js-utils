@@ -14,7 +14,7 @@ export default defineConfig([
   !isDev && {
     input: INPUT,
     output: {
-      file: `dist/${PREFIX}.d.ts`,
+      file: `dist/index.d.ts`,
       format: `es`,
     },
     plugins: [
