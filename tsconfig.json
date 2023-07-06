@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "CommonJS",
+    "module": "commonjs",
     "moduleDetection": "auto",
+    "moduleResolution": "node",
     "isolatedModules": false,
     "lib": [
       "es5",

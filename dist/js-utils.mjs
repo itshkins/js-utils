@@ -29,6 +29,8 @@ var UNIQUE = (array) => Array.from(new Set(array));
 var KB = 1024;
 var MB = 1024 * KB;
 var GB = 1024 * MB;
+var TB = 1024 * GB;
+var PB = 1024 * TB;
 
 // src/date.ts
 var DATE_LENGTH = 10;
@@ -97,13 +99,25 @@ var KeyboardCode = {
 };
 
 // src/op.ts
-var OpState = /* @__PURE__ */ ((OpState2) => {
-  OpState2["NONE"] = `none`;
-  OpState2["PENDING"] = `pending`;
-  OpState2["OK"] = `ok`;
-  OpState2["ERROR"] = `error`;
-  return OpState2;
-})(OpState || {});
+var OpStates = {
+  DEFAULT: { name: `default`, isDefault: true },
+  PENDING: { name: `pending`, isPending: true },
+  OK: { name: `ok`, isOk: true, isResolved: true },
+  ERROR: { name: `error`, isError: true, isResolved: true }
+};
+var findOpStateByName = (name, defaultOp = OpStates.DEFAULT) => {
+  return Object.values(OpStates).find((op) => op.name === name) ?? defaultOp;
+};
+var runOp = async (state, callback) => {
+  try {
+    state.value = OpStates.PENDING;
+    const text = await callback();
+    state.value = OpStates.OK;
+    return text;
+  } catch (err) {
+    state.value = OpStates.ERROR;
+  }
+};
 
 // src/order-by.ts
 var ASC = 1;
@@ -158,13 +172,15 @@ export {
   NOOP,
   NOT,
   OBJECT,
-  OpState,
+  OpStates,
+  PB,
   SATURDAY,
   SECOND,
   SECONDS_IN_MINUTE,
   SET_FILTER,
   SORT_NUMBER,
   SUNDAY,
+  TB,
   THURSDAY,
   TIME_LENGTH,
   TO_NUMBER,
@@ -175,6 +191,8 @@ export {
   WEEK,
   WEEKS_IN_YEAR,
   YES,
+  findOpStateByName,
   orderBy,
-  orderByDescending
+  orderByDescending,
+  runOp
 };

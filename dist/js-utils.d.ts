@@ -26,6 +26,8 @@ declare module "size" {
     export const KB = 1024;
     export const MB: number;
     export const GB: number;
+    export const TB: number;
+    export const PB: number;
 }
 declare module "date" {
     export const DATE_LENGTH = 10;
@@ -94,12 +96,19 @@ declare module "keyboard" {
     };
 }
 declare module "op" {
-    export enum OpState {
-        NONE = "none",
-        PENDING = "pending",
-        OK = "ok",
-        ERROR = "error"
-    }
+    export type OpState = {
+        name: string;
+        isDefault?: boolean;
+        isPending?: boolean;
+        isOk?: boolean;
+        isError?: boolean;
+        isResolved?: boolean;
+    };
+    export const OpStates: Record<string, OpState>;
+    export const findOpStateByName: (name: string, defaultOp?: OpState) => OpState;
+    export const runOp: <TResult>(state: {
+        value: OpState;
+    }, callback: () => Promise<TResult>) => Promise<TResult | undefined>;
 }
 declare module "order-by" {
     export type Selector<T> = (it: T) => unknown;
