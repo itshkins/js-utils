@@ -1,146 +1,61 @@
-"use strict";
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from && typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) && key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+'use strict';
 
-// src/index.ts
-var src_exports = {};
-__export(src_exports, {
-  ARRAY: () => ARRAY,
-  ASC: () => ASC,
-  DATE_LENGTH: () => DATE_LENGTH,
-  DATE_TIME_LENGTH: () => DATE_TIME_LENGTH,
-  DAY: () => DAY,
-  DAYS_IN_MONTH: () => DAYS_IN_MONTH,
-  DAYS_IN_WEEK: () => DAYS_IN_WEEK,
-  DAYS_IN_YEAR: () => DAYS_IN_YEAR,
-  DESC: () => DESC,
-  FOREVER: () => FOREVER,
-  FRIDAY: () => FRIDAY,
-  GB: () => GB,
-  GET_ARRAY: () => GET_ARRAY,
-  GET_OBJECT: () => GET_OBJECT,
-  HAS_ITEMS: () => HAS_ITEMS,
-  HOUR: () => HOUR,
-  HOURS_IN_DAY: () => HOURS_IN_DAY,
-  IDENTITIES: () => IDENTITIES,
-  IDENTITY: () => IDENTITY,
-  JSON_ARRAY: () => JSON_ARRAY,
-  JSON_OBJECT: () => JSON_OBJECT,
-  KB: () => KB,
-  KeyboardCode: () => KeyboardCode,
-  KeyboardKey: () => KeyboardKey,
-  MAX_PERCENTAGE: () => MAX_PERCENTAGE,
-  MB: () => MB,
-  MINUTE: () => MINUTE,
-  MINUTES_IN_HOUR: () => MINUTES_IN_HOUR,
-  MONDAY: () => MONDAY,
-  MONTH: () => MONTH,
-  NO: () => NO,
-  NOOP: () => NOOP,
-  NOT: () => NOT,
-  OBJECT: () => OBJECT,
-  OpStates: () => OpStates,
-  PB: () => PB,
-  SATURDAY: () => SATURDAY,
-  SECOND: () => SECOND,
-  SECONDS_IN_MINUTE: () => SECONDS_IN_MINUTE,
-  SET_FILTER: () => SET_FILTER,
-  SORT_NUMBER: () => SORT_NUMBER,
-  SUNDAY: () => SUNDAY,
-  TB: () => TB,
-  THURSDAY: () => THURSDAY,
-  TIME_LENGTH: () => TIME_LENGTH,
-  TO_NUMBER: () => TO_NUMBER,
-  TUESDAY: () => TUESDAY,
-  UNDEFINED: () => UNDEFINED,
-  UNIQUE: () => UNIQUE,
-  WEDNESDAY: () => WEDNESDAY,
-  WEEK: () => WEEK,
-  WEEKS_IN_YEAR: () => WEEKS_IN_YEAR,
-  YES: () => YES,
-  findOpStateByName: () => findOpStateByName,
-  orderBy: () => orderBy,
-  orderByDescending: () => orderByDescending,
-  runOp: () => runOp
-});
-module.exports = __toCommonJS(src_exports);
+const UNDEFINED = Object.freeze({});
+const OBJECT = Object.freeze({});
+const JSON_OBJECT = JSON.stringify(OBJECT);
+const ARRAY = Object.freeze([]);
+const JSON_ARRAY = JSON.stringify(ARRAY);
+const FOREVER = true;
+const MAX_PERCENTAGE = 100;
 
-// src/constants.ts
-var UNDEFINED = Object.freeze({});
-var OBJECT = Object.freeze({});
-var JSON_OBJECT = JSON.stringify(OBJECT);
-var ARRAY = Object.freeze([]);
-var JSON_ARRAY = JSON.stringify(ARRAY);
-var FOREVER = true;
-var MAX_PERCENTAGE = 100;
-
-// src/callbacks.ts
-var NOOP = (_) => void 0;
-var YES = () => true;
-var NO = () => false;
-var GET_ARRAY = () => ARRAY;
-var GET_OBJECT = () => OBJECT;
-var IDENTITY = (v) => v;
-var IDENTITIES = (...v) => v;
-var NOT = (v) => !v;
-var HAS_ITEMS = (v) => Array.isArray(v) && v.length !== 0;
-var SET_FILTER = (item, index, array) => array.indexOf(item) === index;
-var SORT_NUMBER = (number, otherNumber) => number - otherNumber;
-var TO_NUMBER = (value) => {
+const NOOP = (_) => void 0;
+const YES = () => true;
+const NO = () => false;
+const GET_ARRAY = () => ARRAY;
+const GET_OBJECT = () => OBJECT;
+const IDENTITY = (v) => v;
+const IDENTITIES = (...v) => v;
+const NOT = (v) => !v;
+const HAS_ITEMS = (v) => Array.isArray(v) && v.length !== 0;
+const SET_FILTER = (item, index, array) => array.indexOf(item) === index;
+const SORT_NUMBER = (number, otherNumber) => number - otherNumber;
+const TO_NUMBER = (value) => {
   const n = Number(value);
   return Number.isFinite(n) ? n : void 0;
 };
-var UNIQUE = (array) => Array.from(new Set(array));
+const UNIQUE = (array) => Array.from(new Set(array));
 
-// src/size.ts
-var KB = 1024;
-var MB = 1024 * KB;
-var GB = 1024 * MB;
-var TB = 1024 * GB;
-var PB = 1024 * TB;
+const KB = 1024;
+const MB = 1024 * KB;
+const GB = 1024 * MB;
+const TB = 1024 * GB;
+const PB = 1024 * TB;
 
-// src/date.ts
-var DATE_LENGTH = 10;
-var TIME_LENGTH = 8;
-var DATE_TIME_LENGTH = DATE_LENGTH + 1 + TIME_LENGTH;
-var SECOND = 1e3;
-var SECONDS_IN_MINUTE = 60;
-var MINUTE = SECOND * SECONDS_IN_MINUTE;
-var MINUTES_IN_HOUR = 60;
-var HOUR = MINUTE * MINUTES_IN_HOUR;
-var HOURS_IN_DAY = 24;
-var DAY = HOURS_IN_DAY * HOUR;
-var DAYS_IN_WEEK = 7;
-var WEEK = DAYS_IN_WEEK * DAY;
-var DAYS_IN_MONTH = 28;
-var MONTH = DAYS_IN_MONTH * DAY;
-var WEEKS_IN_YEAR = 52;
-var DAYS_IN_YEAR = WEEKS_IN_YEAR * DAYS_IN_WEEK;
-var SUNDAY = 0;
-var MONDAY = 1;
-var TUESDAY = 2;
-var WEDNESDAY = 3;
-var THURSDAY = 4;
-var FRIDAY = 5;
-var SATURDAY = 6;
+const DATE_LENGTH = 10;
+const TIME_LENGTH = 8;
+const DATE_TIME_LENGTH = DATE_LENGTH + 1 + TIME_LENGTH;
+const SECOND = 1e3;
+const SECONDS_IN_MINUTE = 60;
+const MINUTE = SECOND * SECONDS_IN_MINUTE;
+const MINUTES_IN_HOUR = 60;
+const HOUR = MINUTE * MINUTES_IN_HOUR;
+const HOURS_IN_DAY = 24;
+const DAY = HOURS_IN_DAY * HOUR;
+const DAYS_IN_WEEK = 7;
+const WEEK = DAYS_IN_WEEK * DAY;
+const DAYS_IN_MONTH = 28;
+const MONTH = DAYS_IN_MONTH * DAY;
+const WEEKS_IN_YEAR = 52;
+const DAYS_IN_YEAR = WEEKS_IN_YEAR * DAYS_IN_WEEK;
+const SUNDAY = 0;
+const MONDAY = 1;
+const TUESDAY = 2;
+const WEDNESDAY = 3;
+const THURSDAY = 4;
+const FRIDAY = 5;
+const SATURDAY = 6;
 
-// src/keyboard.ts
-var KeyboardKey = {
+const KeyboardKey = {
   ESCAPE: `Escape`,
   SHIFT: `Shift`,
   ALT: `Alt`,
@@ -161,7 +76,7 @@ var KeyboardKey = {
   MINUS: `-`,
   E: `e`
 };
-var KeyboardCode = {
+const KeyboardCode = {
   ESCAPE: 27,
   SHIFT: 16,
   CTRL: 17,
@@ -180,31 +95,50 @@ var KeyboardCode = {
   C: 67
 };
 
-// src/op.ts
-var OpStates = {
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+const OpStates = {
   DEFAULT: { name: `default`, isDefault: true },
   PENDING: { name: `pending`, isPending: true },
   OK: { name: `ok`, isOk: true, isResolved: true },
   ERROR: { name: `error`, isError: true, isResolved: true }
 };
-var findOpStateByName = (name, defaultOp = OpStates.DEFAULT) => {
-  return Object.values(OpStates).find((op) => op.name === name) ?? defaultOp;
+const findOpStateByName = (name, defaultOp = OpStates.DEFAULT) => {
+  var _a;
+  return (_a = Object.values(OpStates).find((op) => op.name === name)) != null ? _a : defaultOp;
 };
-var runOp = async (state, callback) => {
+const runOp = (state, callback) => __async(void 0, null, function* () {
   try {
     state.value = OpStates.PENDING;
-    const text = await callback();
+    const text = yield callback();
     state.value = OpStates.OK;
     return text;
   } catch (err) {
     state.value = OpStates.ERROR;
   }
-};
+});
 
-// src/order-by.ts
-var ASC = 1;
-var DESC = -1;
-var doOrderBy = (iterable, dir, selector) => {
+const ASC = 1;
+const DESC = -1;
+const doOrderBy = (iterable, dir, selector) => {
   return Array.from(iterable).sort((a, b) => {
     a = selector(a);
     b = selector(b);
@@ -217,65 +151,63 @@ var doOrderBy = (iterable, dir, selector) => {
     return 0;
   });
 };
-var orderBy = (iterable, selector = IDENTITY) => doOrderBy(iterable, ASC, selector);
-var orderByDescending = (iterable, selector = IDENTITY) => doOrderBy(iterable, DESC, selector);
-// Annotate the CommonJS export names for ESM import in node:
-0 && (module.exports = {
-  ARRAY,
-  ASC,
-  DATE_LENGTH,
-  DATE_TIME_LENGTH,
-  DAY,
-  DAYS_IN_MONTH,
-  DAYS_IN_WEEK,
-  DAYS_IN_YEAR,
-  DESC,
-  FOREVER,
-  FRIDAY,
-  GB,
-  GET_ARRAY,
-  GET_OBJECT,
-  HAS_ITEMS,
-  HOUR,
-  HOURS_IN_DAY,
-  IDENTITIES,
-  IDENTITY,
-  JSON_ARRAY,
-  JSON_OBJECT,
-  KB,
-  KeyboardCode,
-  KeyboardKey,
-  MAX_PERCENTAGE,
-  MB,
-  MINUTE,
-  MINUTES_IN_HOUR,
-  MONDAY,
-  MONTH,
-  NO,
-  NOOP,
-  NOT,
-  OBJECT,
-  OpStates,
-  PB,
-  SATURDAY,
-  SECOND,
-  SECONDS_IN_MINUTE,
-  SET_FILTER,
-  SORT_NUMBER,
-  SUNDAY,
-  TB,
-  THURSDAY,
-  TIME_LENGTH,
-  TO_NUMBER,
-  TUESDAY,
-  UNDEFINED,
-  UNIQUE,
-  WEDNESDAY,
-  WEEK,
-  WEEKS_IN_YEAR,
-  YES,
-  findOpStateByName,
-  orderBy,
-  orderByDescending,
-  runOp
-});
+const orderBy = (iterable, selector = IDENTITY) => doOrderBy(iterable, ASC, selector);
+const orderByDescending = (iterable, selector = IDENTITY) => doOrderBy(iterable, DESC, selector);
+
+exports.ARRAY = ARRAY;
+exports.ASC = ASC;
+exports.DATE_LENGTH = DATE_LENGTH;
+exports.DATE_TIME_LENGTH = DATE_TIME_LENGTH;
+exports.DAY = DAY;
+exports.DAYS_IN_MONTH = DAYS_IN_MONTH;
+exports.DAYS_IN_WEEK = DAYS_IN_WEEK;
+exports.DAYS_IN_YEAR = DAYS_IN_YEAR;
+exports.DESC = DESC;
+exports.FOREVER = FOREVER;
+exports.FRIDAY = FRIDAY;
+exports.GB = GB;
+exports.GET_ARRAY = GET_ARRAY;
+exports.GET_OBJECT = GET_OBJECT;
+exports.HAS_ITEMS = HAS_ITEMS;
+exports.HOUR = HOUR;
+exports.HOURS_IN_DAY = HOURS_IN_DAY;
+exports.IDENTITIES = IDENTITIES;
+exports.IDENTITY = IDENTITY;
+exports.JSON_ARRAY = JSON_ARRAY;
+exports.JSON_OBJECT = JSON_OBJECT;
+exports.KB = KB;
+exports.KeyboardCode = KeyboardCode;
+exports.KeyboardKey = KeyboardKey;
+exports.MAX_PERCENTAGE = MAX_PERCENTAGE;
+exports.MB = MB;
+exports.MINUTE = MINUTE;
+exports.MINUTES_IN_HOUR = MINUTES_IN_HOUR;
+exports.MONDAY = MONDAY;
+exports.MONTH = MONTH;
+exports.NO = NO;
+exports.NOOP = NOOP;
+exports.NOT = NOT;
+exports.OBJECT = OBJECT;
+exports.OpStates = OpStates;
+exports.PB = PB;
+exports.SATURDAY = SATURDAY;
+exports.SECOND = SECOND;
+exports.SECONDS_IN_MINUTE = SECONDS_IN_MINUTE;
+exports.SET_FILTER = SET_FILTER;
+exports.SORT_NUMBER = SORT_NUMBER;
+exports.SUNDAY = SUNDAY;
+exports.TB = TB;
+exports.THURSDAY = THURSDAY;
+exports.TIME_LENGTH = TIME_LENGTH;
+exports.TO_NUMBER = TO_NUMBER;
+exports.TUESDAY = TUESDAY;
+exports.UNDEFINED = UNDEFINED;
+exports.UNIQUE = UNIQUE;
+exports.WEDNESDAY = WEDNESDAY;
+exports.WEEK = WEEK;
+exports.WEEKS_IN_YEAR = WEEKS_IN_YEAR;
+exports.YES = YES;
+exports.findOpStateByName = findOpStateByName;
+exports.orderBy = orderBy;
+exports.orderByDescending = orderByDescending;
+exports.runOp = runOp;

@@ -6,29 +6,27 @@
     "moduleResolution": "node",
     "isolatedModules": false,
     "lib": [
-      "es5",
-      "es6",
-      "dom"
+      "esnext"
     ],
     "declaration": true,
     "emitDeclarationOnly": true,
-    "baseUrl": "src",
-    "sourceRoot": "./src/",
-    "rootDir": "./src/",
-    "outFile": "./dist/index.js",
     "sourceMap": true,
     "allowJs": true,
-    "esModuleInterop": true,
     "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
     "experimentalDecorators": true,
+    "strict": true,
     "noImplicitAny": false,
-    "noEmit": false,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
     "removeComments": true,
-    "preserveConstEnums": false
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": true,
+    "stripInternal": true,
+    "downlevelIteration": true,
+    "noUnusedLocals": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": [
     "src/**/*.ts"

@@ -1,4 +1,4 @@
-import {ARRAY, OBJECT} from './index'
+import {ARRAY, OBJECT} from './constants'
 
 export const NOOP = (_?: unknown) => undefined
 export const YES = () => true

@@ -1,64 +1,59 @@
-// src/constants.ts
-var UNDEFINED = Object.freeze({});
-var OBJECT = Object.freeze({});
-var JSON_OBJECT = JSON.stringify(OBJECT);
-var ARRAY = Object.freeze([]);
-var JSON_ARRAY = JSON.stringify(ARRAY);
-var FOREVER = true;
-var MAX_PERCENTAGE = 100;
+const UNDEFINED = Object.freeze({});
+const OBJECT = Object.freeze({});
+const JSON_OBJECT = JSON.stringify(OBJECT);
+const ARRAY = Object.freeze([]);
+const JSON_ARRAY = JSON.stringify(ARRAY);
+const FOREVER = true;
+const MAX_PERCENTAGE = 100;
 
-// src/callbacks.ts
-var NOOP = (_) => void 0;
-var YES = () => true;
-var NO = () => false;
-var GET_ARRAY = () => ARRAY;
-var GET_OBJECT = () => OBJECT;
-var IDENTITY = (v) => v;
-var IDENTITIES = (...v) => v;
-var NOT = (v) => !v;
-var HAS_ITEMS = (v) => Array.isArray(v) && v.length !== 0;
-var SET_FILTER = (item, index, array) => array.indexOf(item) === index;
-var SORT_NUMBER = (number, otherNumber) => number - otherNumber;
-var TO_NUMBER = (value) => {
+const NOOP = (_) => void 0;
+const YES = () => true;
+const NO = () => false;
+const GET_ARRAY = () => ARRAY;
+const GET_OBJECT = () => OBJECT;
+const IDENTITY = (v) => v;
+const IDENTITIES = (...v) => v;
+const NOT = (v) => !v;
+const HAS_ITEMS = (v) => Array.isArray(v) && v.length !== 0;
+const SET_FILTER = (item, index, array) => array.indexOf(item) === index;
+const SORT_NUMBER = (number, otherNumber) => number - otherNumber;
+const TO_NUMBER = (value) => {
   const n = Number(value);
   return Number.isFinite(n) ? n : void 0;
 };
-var UNIQUE = (array) => Array.from(new Set(array));
+const UNIQUE = (array) => Array.from(new Set(array));
 
-// src/size.ts
-var KB = 1024;
-var MB = 1024 * KB;
-var GB = 1024 * MB;
-var TB = 1024 * GB;
-var PB = 1024 * TB;
+const KB = 1024;
+const MB = 1024 * KB;
+const GB = 1024 * MB;
+const TB = 1024 * GB;
+const PB = 1024 * TB;
 
-// src/date.ts
-var DATE_LENGTH = 10;
-var TIME_LENGTH = 8;
-var DATE_TIME_LENGTH = DATE_LENGTH + 1 + TIME_LENGTH;
-var SECOND = 1e3;
-var SECONDS_IN_MINUTE = 60;
-var MINUTE = SECOND * SECONDS_IN_MINUTE;
-var MINUTES_IN_HOUR = 60;
-var HOUR = MINUTE * MINUTES_IN_HOUR;
-var HOURS_IN_DAY = 24;
-var DAY = HOURS_IN_DAY * HOUR;
-var DAYS_IN_WEEK = 7;
-var WEEK = DAYS_IN_WEEK * DAY;
-var DAYS_IN_MONTH = 28;
-var MONTH = DAYS_IN_MONTH * DAY;
-var WEEKS_IN_YEAR = 52;
-var DAYS_IN_YEAR = WEEKS_IN_YEAR * DAYS_IN_WEEK;
-var SUNDAY = 0;
-var MONDAY = 1;
-var TUESDAY = 2;
-var WEDNESDAY = 3;
-var THURSDAY = 4;
-var FRIDAY = 5;
-var SATURDAY = 6;
+const DATE_LENGTH = 10;
+const TIME_LENGTH = 8;
+const DATE_TIME_LENGTH = DATE_LENGTH + 1 + TIME_LENGTH;
+const SECOND = 1e3;
+const SECONDS_IN_MINUTE = 60;
+const MINUTE = SECOND * SECONDS_IN_MINUTE;
+const MINUTES_IN_HOUR = 60;
+const HOUR = MINUTE * MINUTES_IN_HOUR;
+const HOURS_IN_DAY = 24;
+const DAY = HOURS_IN_DAY * HOUR;
+const DAYS_IN_WEEK = 7;
+const WEEK = DAYS_IN_WEEK * DAY;
+const DAYS_IN_MONTH = 28;
+const MONTH = DAYS_IN_MONTH * DAY;
+const WEEKS_IN_YEAR = 52;
+const DAYS_IN_YEAR = WEEKS_IN_YEAR * DAYS_IN_WEEK;
+const SUNDAY = 0;
+const MONDAY = 1;
+const TUESDAY = 2;
+const WEDNESDAY = 3;
+const THURSDAY = 4;
+const FRIDAY = 5;
+const SATURDAY = 6;
 
-// src/keyboard.ts
-var KeyboardKey = {
+const KeyboardKey = {
   ESCAPE: `Escape`,
   SHIFT: `Shift`,
   ALT: `Alt`,
@@ -79,7 +74,7 @@ var KeyboardKey = {
   MINUS: `-`,
   E: `e`
 };
-var KeyboardCode = {
+const KeyboardCode = {
   ESCAPE: 27,
   SHIFT: 16,
   CTRL: 17,
@@ -98,31 +93,50 @@ var KeyboardCode = {
   C: 67
 };
 
-// src/op.ts
-var OpStates = {
+var __async = (__this, __arguments, generator) => {
+  return new Promise((resolve, reject) => {
+    var fulfilled = (value) => {
+      try {
+        step(generator.next(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var rejected = (value) => {
+      try {
+        step(generator.throw(value));
+      } catch (e) {
+        reject(e);
+      }
+    };
+    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    step((generator = generator.apply(__this, __arguments)).next());
+  });
+};
+const OpStates = {
   DEFAULT: { name: `default`, isDefault: true },
   PENDING: { name: `pending`, isPending: true },
   OK: { name: `ok`, isOk: true, isResolved: true },
   ERROR: { name: `error`, isError: true, isResolved: true }
 };
-var findOpStateByName = (name, defaultOp = OpStates.DEFAULT) => {
-  return Object.values(OpStates).find((op) => op.name === name) ?? defaultOp;
+const findOpStateByName = (name, defaultOp = OpStates.DEFAULT) => {
+  var _a;
+  return (_a = Object.values(OpStates).find((op) => op.name === name)) != null ? _a : defaultOp;
 };
-var runOp = async (state, callback) => {
+const runOp = (state, callback) => __async(void 0, null, function* () {
   try {
     state.value = OpStates.PENDING;
-    const text = await callback();
+    const text = yield callback();
     state.value = OpStates.OK;
     return text;
   } catch (err) {
     state.value = OpStates.ERROR;
   }
-};
+});
 
-// src/order-by.ts
-var ASC = 1;
-var DESC = -1;
-var doOrderBy = (iterable, dir, selector) => {
+const ASC = 1;
+const DESC = -1;
+const doOrderBy = (iterable, dir, selector) => {
   return Array.from(iterable).sort((a, b) => {
     a = selector(a);
     b = selector(b);
@@ -135,64 +149,7 @@ var doOrderBy = (iterable, dir, selector) => {
     return 0;
   });
 };
-var orderBy = (iterable, selector = IDENTITY) => doOrderBy(iterable, ASC, selector);
-var orderByDescending = (iterable, selector = IDENTITY) => doOrderBy(iterable, DESC, selector);
-export {
-  ARRAY,
-  ASC,
-  DATE_LENGTH,
-  DATE_TIME_LENGTH,
-  DAY,
-  DAYS_IN_MONTH,
-  DAYS_IN_WEEK,
-  DAYS_IN_YEAR,
-  DESC,
-  FOREVER,
-  FRIDAY,
-  GB,
-  GET_ARRAY,
-  GET_OBJECT,
-  HAS_ITEMS,
-  HOUR,
-  HOURS_IN_DAY,
-  IDENTITIES,
-  IDENTITY,
-  JSON_ARRAY,
-  JSON_OBJECT,
-  KB,
-  KeyboardCode,
-  KeyboardKey,
-  MAX_PERCENTAGE,
-  MB,
-  MINUTE,
-  MINUTES_IN_HOUR,
-  MONDAY,
-  MONTH,
-  NO,
-  NOOP,
-  NOT,
-  OBJECT,
-  OpStates,
-  PB,
-  SATURDAY,
-  SECOND,
-  SECONDS_IN_MINUTE,
-  SET_FILTER,
-  SORT_NUMBER,
-  SUNDAY,
-  TB,
-  THURSDAY,
-  TIME_LENGTH,
-  TO_NUMBER,
-  TUESDAY,
-  UNDEFINED,
-  UNIQUE,
-  WEDNESDAY,
-  WEEK,
-  WEEKS_IN_YEAR,
-  YES,
-  findOpStateByName,
-  orderBy,
-  orderByDescending,
-  runOp
-};
+const orderBy = (iterable, selector = IDENTITY) => doOrderBy(iterable, ASC, selector);
+const orderByDescending = (iterable, selector = IDENTITY) => doOrderBy(iterable, DESC, selector);
+
+export { ARRAY, ASC, DATE_LENGTH, DATE_TIME_LENGTH, DAY, DAYS_IN_MONTH, DAYS_IN_WEEK, DAYS_IN_YEAR, DESC, FOREVER, FRIDAY, GB, GET_ARRAY, GET_OBJECT, HAS_ITEMS, HOUR, HOURS_IN_DAY, IDENTITIES, IDENTITY, JSON_ARRAY, JSON_OBJECT, KB, KeyboardCode, KeyboardKey, MAX_PERCENTAGE, MB, MINUTE, MINUTES_IN_HOUR, MONDAY, MONTH, NO, NOOP, NOT, OBJECT, OpStates, PB, SATURDAY, SECOND, SECONDS_IN_MINUTE, SET_FILTER, SORT_NUMBER, SUNDAY, TB, THURSDAY, TIME_LENGTH, TO_NUMBER, TUESDAY, UNDEFINED, UNIQUE, WEDNESDAY, WEEK, WEEKS_IN_YEAR, YES, findOpStateByName, orderBy, orderByDescending, runOp };
