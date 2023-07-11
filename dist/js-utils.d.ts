@@ -1,4 +1,4 @@
-declare const UNDEFINED: Readonly<{}>;
+declare const UNSET: Readonly<{}>;
 declare const OBJECT: any;
 declare const JSON_OBJECT: string;
 declare const ARRAY: readonly any[];
@@ -9,11 +9,11 @@ declare const MAX_PERCENTAGE = 100;
 declare const NOOP: (_?: unknown) => undefined;
 declare const YES: () => boolean;
 declare const NO: () => boolean;
+declare const TOGGLE: (v: any) => boolean;
 declare const GET_ARRAY: () => readonly any[];
 declare const GET_OBJECT: () => any;
 declare const IDENTITY: (v: any) => any;
 declare const IDENTITIES: (...v: any[]) => any[];
-declare const NOT: (v: any) => boolean;
 declare const HAS_ITEMS: (v: unknown[]) => boolean;
 declare const SET_FILTER: (item: any, index: any, array: any) => boolean;
 declare const SORT_NUMBER: (number: any, otherNumber: any) => number;
@@ -110,4 +110,4 @@ declare const DESC = -1;
 declare const orderBy: <T>(iterable: Iterable<T>, selector?: Selector<T>) => T[];
 declare const orderByDescending: <T>(iterable: Iterable<T>, selector?: Selector<T>) => T[];
 
-export { ARRAY, ASC, DATE_LENGTH, DATE_TIME_LENGTH, DAY, DAYS_IN_MONTH, DAYS_IN_WEEK, DAYS_IN_YEAR, DESC, FOREVER, FRIDAY, GB, GET_ARRAY, GET_OBJECT, HAS_ITEMS, HOUR, HOURS_IN_DAY, IDENTITIES, IDENTITY, JSON_ARRAY, JSON_OBJECT, KB, KeyboardCode, KeyboardKey, MAX_PERCENTAGE, MB, MINUTE, MINUTES_IN_HOUR, MONDAY, MONTH, NO, NOOP, NOT, OBJECT, OpState, OpStates, PB, SATURDAY, SECOND, SECONDS_IN_MINUTE, SET_FILTER, SORT_NUMBER, SUNDAY, Selector, TB, THURSDAY, TIME_LENGTH, TO_NUMBER, TUESDAY, UNDEFINED, UNIQUE, WEDNESDAY, WEEK, WEEKS_IN_YEAR, YES, findOpStateByName, orderBy, orderByDescending, runOp };
+export { ARRAY, ASC, DATE_LENGTH, DATE_TIME_LENGTH, DAY, DAYS_IN_MONTH, DAYS_IN_WEEK, DAYS_IN_YEAR, DESC, FOREVER, FRIDAY, GB, GET_ARRAY, GET_OBJECT, HAS_ITEMS, HOUR, HOURS_IN_DAY, IDENTITIES, IDENTITY, JSON_ARRAY, JSON_OBJECT, KB, KeyboardCode, KeyboardKey, MAX_PERCENTAGE, MB, MINUTE, MINUTES_IN_HOUR, MONDAY, MONTH, NO, NOOP, OBJECT, OpState, OpStates, PB, SATURDAY, SECOND, SECONDS_IN_MINUTE, SET_FILTER, SORT_NUMBER, SUNDAY, Selector, TB, THURSDAY, TIME_LENGTH, TOGGLE, TO_NUMBER, TUESDAY, UNIQUE, UNSET, WEDNESDAY, WEEK, WEEKS_IN_YEAR, YES, findOpStateByName, orderBy, orderByDescending, runOp };

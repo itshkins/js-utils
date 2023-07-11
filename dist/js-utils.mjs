@@ -1,4 +1,4 @@
-const UNDEFINED = Object.freeze({});
+const UNSET = Object.freeze({});
 const OBJECT = Object.freeze({});
 const JSON_OBJECT = JSON.stringify(OBJECT);
 const ARRAY = Object.freeze([]);
@@ -9,11 +9,11 @@ const MAX_PERCENTAGE = 100;
 const NOOP = (_) => void 0;
 const YES = () => true;
 const NO = () => false;
+const TOGGLE = (v) => !v;
 const GET_ARRAY = () => ARRAY;
 const GET_OBJECT = () => OBJECT;
 const IDENTITY = (v) => v;
 const IDENTITIES = (...v) => v;
-const NOT = (v) => !v;
 const HAS_ITEMS = (v) => Array.isArray(v) && v.length !== 0;
 const SET_FILTER = (item, index, array) => array.indexOf(item) === index;
 const SORT_NUMBER = (number, otherNumber) => number - otherNumber;
@@ -152,4 +152,4 @@ const doOrderBy = (iterable, dir, selector) => {
 const orderBy = (iterable, selector = IDENTITY) => doOrderBy(iterable, ASC, selector);
 const orderByDescending = (iterable, selector = IDENTITY) => doOrderBy(iterable, DESC, selector);
 
-export { ARRAY, ASC, DATE_LENGTH, DATE_TIME_LENGTH, DAY, DAYS_IN_MONTH, DAYS_IN_WEEK, DAYS_IN_YEAR, DESC, FOREVER, FRIDAY, GB, GET_ARRAY, GET_OBJECT, HAS_ITEMS, HOUR, HOURS_IN_DAY, IDENTITIES, IDENTITY, JSON_ARRAY, JSON_OBJECT, KB, KeyboardCode, KeyboardKey, MAX_PERCENTAGE, MB, MINUTE, MINUTES_IN_HOUR, MONDAY, MONTH, NO, NOOP, NOT, OBJECT, OpStates, PB, SATURDAY, SECOND, SECONDS_IN_MINUTE, SET_FILTER, SORT_NUMBER, SUNDAY, TB, THURSDAY, TIME_LENGTH, TO_NUMBER, TUESDAY, UNDEFINED, UNIQUE, WEDNESDAY, WEEK, WEEKS_IN_YEAR, YES, findOpStateByName, orderBy, orderByDescending, runOp };
+export { ARRAY, ASC, DATE_LENGTH, DATE_TIME_LENGTH, DAY, DAYS_IN_MONTH, DAYS_IN_WEEK, DAYS_IN_YEAR, DESC, FOREVER, FRIDAY, GB, GET_ARRAY, GET_OBJECT, HAS_ITEMS, HOUR, HOURS_IN_DAY, IDENTITIES, IDENTITY, JSON_ARRAY, JSON_OBJECT, KB, KeyboardCode, KeyboardKey, MAX_PERCENTAGE, MB, MINUTE, MINUTES_IN_HOUR, MONDAY, MONTH, NO, NOOP, OBJECT, OpStates, PB, SATURDAY, SECOND, SECONDS_IN_MINUTE, SET_FILTER, SORT_NUMBER, SUNDAY, TB, THURSDAY, TIME_LENGTH, TOGGLE, TO_NUMBER, TUESDAY, UNIQUE, UNSET, WEDNESDAY, WEEK, WEEKS_IN_YEAR, YES, findOpStateByName, orderBy, orderByDescending, runOp };

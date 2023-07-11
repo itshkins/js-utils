@@ -1,7 +1,7 @@
 var jsUtils = (function (exports) {
   'use strict';
 
-  const UNDEFINED = Object.freeze({});
+  const UNSET = Object.freeze({});
   const OBJECT = Object.freeze({});
   const JSON_OBJECT = JSON.stringify(OBJECT);
   const ARRAY = Object.freeze([]);
@@ -12,11 +12,11 @@ var jsUtils = (function (exports) {
   const NOOP = (_) => void 0;
   const YES = () => true;
   const NO = () => false;
+  const TOGGLE = (v) => !v;
   const GET_ARRAY = () => ARRAY;
   const GET_OBJECT = () => OBJECT;
   const IDENTITY = (v) => v;
   const IDENTITIES = (...v) => v;
-  const NOT = (v) => !v;
   const HAS_ITEMS = (v) => Array.isArray(v) && v.length !== 0;
   const SET_FILTER = (item, index, array) => array.indexOf(item) === index;
   const SORT_NUMBER = (number, otherNumber) => number - otherNumber;
@@ -187,7 +187,6 @@ var jsUtils = (function (exports) {
   exports.MONTH = MONTH;
   exports.NO = NO;
   exports.NOOP = NOOP;
-  exports.NOT = NOT;
   exports.OBJECT = OBJECT;
   exports.OpStates = OpStates;
   exports.PB = PB;
@@ -200,10 +199,11 @@ var jsUtils = (function (exports) {
   exports.TB = TB;
   exports.THURSDAY = THURSDAY;
   exports.TIME_LENGTH = TIME_LENGTH;
+  exports.TOGGLE = TOGGLE;
   exports.TO_NUMBER = TO_NUMBER;
   exports.TUESDAY = TUESDAY;
-  exports.UNDEFINED = UNDEFINED;
   exports.UNIQUE = UNIQUE;
+  exports.UNSET = UNSET;
   exports.WEDNESDAY = WEDNESDAY;
   exports.WEEK = WEEK;
   exports.WEEKS_IN_YEAR = WEEKS_IN_YEAR;
