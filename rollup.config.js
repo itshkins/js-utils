@@ -5,6 +5,7 @@ import esbuild from 'rollup-plugin-esbuild'
 
 const PREFIX = `js-utils`
 const INPUT = `src/index.ts`
+const VAR = `jsUtils`
 
 const isDev = process.env.NODE_ENV === `development`
 
@@ -14,7 +15,7 @@ export default defineConfig([
   !isDev && {
     input: INPUT,
     output: {
-      file: `dist/index.d.ts`,
+      file: `dist/${PREFIX}.d.ts`,
       format: `es`,
     },
     plugins: [
@@ -32,7 +33,7 @@ export default defineConfig([
     }, {
       file: `dist/${PREFIX}.min.js`,
       format: `iife`,
-      name: `jsUtils`,
+      name: VAR,
     }],
     plugins: [
       esbuild({
@@ -51,7 +52,7 @@ export default defineConfig([
     }, {
       file: `dist/${PREFIX}.js`,
       format: `iife`,
-      name: `jsUtils`,
+      name: VAR,
     }],
     plugins: [
       esbuild(),

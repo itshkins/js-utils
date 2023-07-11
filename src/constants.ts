@@ -1,4 +1,4 @@
-export const UNDEFINED = Object.freeze({})
+export const UNSET = Object.freeze({})
 
 export const OBJECT: any = Object.freeze({})
 export const JSON_OBJECT = JSON.stringify(OBJECT)

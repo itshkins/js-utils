@@ -6,6 +6,9 @@
   "main": "./dist/js-utils.cjs",
   "browser": "./dist/js-utils.js",
   "types": "./dist/js-utils.d.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rm -rf ./dist",
     "start": "npm run clean && NODE_ENV=development rollup -c -w",
