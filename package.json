@@ -1,7 +1,7 @@
 {
   "name": "@itshkins/js-utils",
   "type": "module",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "JavaScript utils",
   "main": "./dist/js-utils.cjs",
   "browser": "./dist/js-utils.js",
