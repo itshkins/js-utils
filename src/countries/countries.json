@@ -1,0 +1,2438 @@
+[
+  {
+    "key": "ab",
+    "iso2": "AB",
+    "titleEn": "Abkhazia",
+    "titlePreciseEn": "Abkhazia",
+    "titleRu": "Абхазия",
+    "titlePreciseRu": "Республика Абхазия",
+    "flagUrl": "/flags/ab.png"
+  },
+  {
+    "key": "au",
+    "iso2": "AU",
+    "titleEn": "Australia",
+    "titlePreciseEn": "Australia",
+    "titleRu": "Австралия",
+    "titlePreciseRu": "Австралия",
+    "flagUrl": "/flags/au.png"
+  },
+  {
+    "key": "at",
+    "iso2": "AT",
+    "titleEn": "Austria",
+    "titlePreciseEn": "Austria",
+    "titleRu": "Австрия",
+    "titlePreciseRu": "Австрийская Республика",
+    "flagUrl": "/flags/at.png"
+  },
+  {
+    "key": "az",
+    "iso2": "AZ",
+    "titleEn": "Azerbaijan",
+    "titlePreciseEn": "Azerbaijan",
+    "titleRu": "Азербайджан",
+    "titlePreciseRu": "Республика Азербайджан",
+    "flagUrl": "/flags/az.png"
+  },
+  {
+    "key": "al",
+    "iso2": "AL",
+    "titleEn": "Albania",
+    "titlePreciseEn": "Albania",
+    "titleRu": "Албания",
+    "titlePreciseRu": "Республика Албания",
+    "flagUrl": "/flags/al.png"
+  },
+  {
+    "key": "dz",
+    "iso2": "DZ",
+    "titleEn": "Algeria",
+    "titlePreciseEn": "Algeria",
+    "titleRu": "Алжир",
+    "titlePreciseRu": "Алжирская Народная Демократическая Республика",
+    "flagUrl": "/flags/dz.png"
+  },
+  {
+    "key": "as",
+    "iso2": "AS",
+    "titleEn": "American Samoa",
+    "titlePreciseEn": "American Samoa",
+    "titleRu": "Американское Самоа",
+    "titlePreciseRu": "Американское Самоа",
+    "flagUrl": "/flags/as.png"
+  },
+  {
+    "key": "ai",
+    "iso2": "AI",
+    "titleEn": "Anguilla",
+    "titlePreciseEn": "Anguilla",
+    "titleRu": "Ангилья",
+    "titlePreciseRu": "Ангилья",
+    "flagUrl": "/flags/ai.png"
+  },
+  {
+    "key": "ao",
+    "iso2": "AO",
+    "titleEn": "Angola",
+    "titlePreciseEn": "Angola",
+    "titleRu": "Ангола",
+    "titlePreciseRu": "Республика Ангола",
+    "flagUrl": "/flags/ao.png"
+  },
+  {
+    "key": "ad",
+    "iso2": "AD",
+    "titleEn": "Andorra",
+    "titlePreciseEn": "Andorra",
+    "titleRu": "Андорра",
+    "titlePreciseRu": "Княжество Андорра",
+    "flagUrl": "/flags/ad.png"
+  },
+  {
+    "key": "aq",
+    "iso2": "AQ",
+    "titleEn": "Antarctica",
+    "titlePreciseEn": "Antarctica",
+    "titleRu": "Антарктида",
+    "titlePreciseRu": "Антарктида",
+    "flagUrl": "/flags/aq.png"
+  },
+  {
+    "key": "ag",
+    "iso2": "AG",
+    "titleEn": "Antigua and Barbuda",
+    "titlePreciseEn": "Antigua and Barbuda",
+    "titleRu": "Антигуа и Барбуда",
+    "titlePreciseRu": "Антигуа и Барбуда",
+    "flagUrl": "/flags/ag.png"
+  },
+  {
+    "key": "ar",
+    "iso2": "AR",
+    "titleEn": "Argentina",
+    "titlePreciseEn": "Argentina",
+    "titleRu": "Аргентина",
+    "titlePreciseRu": "Аргентинская Республика",
+    "flagUrl": "/flags/ar.png"
+  },
+  {
+    "key": "am",
+    "iso2": "AM",
+    "titleEn": "Armenia",
+    "titlePreciseEn": "Armenia",
+    "titleRu": "Армения",
+    "titlePreciseRu": "Республика Армения",
+    "flagUrl": "/flags/am.png"
+  },
+  {
+    "key": "aw",
+    "iso2": "AW",
+    "titleEn": "Aruba",
+    "titlePreciseEn": "Aruba",
+    "titleRu": "Аруба",
+    "titlePreciseRu": "Аруба",
+    "flagUrl": "/flags/aw.png"
+  },
+  {
+    "key": "af",
+    "iso2": "AF",
+    "titleEn": "Afghanistan",
+    "titlePreciseEn": "Afghanistan",
+    "titleRu": "Афганистан",
+    "titlePreciseRu": "Переходное Исламское Государство Афганистан",
+    "flagUrl": "/flags/af.png"
+  },
+  {
+    "key": "bs",
+    "iso2": "BS",
+    "titleEn": "Bahamas",
+    "titlePreciseEn": "Bahamas",
+    "titleRu": "Багамы",
+    "titlePreciseRu": "Содружество Багамы",
+    "flagUrl": "/flags/bs.png"
+  },
+  {
+    "key": "bd",
+    "iso2": "BD",
+    "titleEn": "Bangladesh",
+    "titlePreciseEn": "Bangladesh",
+    "titleRu": "Бангладеш",
+    "titlePreciseRu": "Народная Республика Бангладеш",
+    "flagUrl": "/flags/bd.png"
+  },
+  {
+    "key": "bb",
+    "iso2": "BB",
+    "titleEn": "Barbados",
+    "titlePreciseEn": "Barbados",
+    "titleRu": "Барбадос",
+    "titlePreciseRu": "Барбадос",
+    "flagUrl": "/flags/bb.png"
+  },
+  {
+    "key": "bh",
+    "iso2": "BH",
+    "titleEn": "Bahrain",
+    "titlePreciseEn": "Bahrain",
+    "titleRu": "Бахрейн",
+    "titlePreciseRu": "Королевство Бахрейн",
+    "flagUrl": "/flags/bh.png"
+  },
+  {
+    "key": "by",
+    "iso2": "BY",
+    "titleEn": "Belarus",
+    "titlePreciseEn": "Belarus",
+    "titleRu": "Беларусь",
+    "titlePreciseRu": "Республика Беларусь",
+    "flagUrl": "/flags/by.png"
+  },
+  {
+    "key": "bz",
+    "iso2": "BZ",
+    "titleEn": "Belize",
+    "titlePreciseEn": "Belize",
+    "titleRu": "Белиз",
+    "titlePreciseRu": "Белиз",
+    "flagUrl": "/flags/bz.png"
+  },
+  {
+    "key": "be",
+    "iso2": "BE",
+    "titleEn": "Belgium",
+    "titlePreciseEn": "Belgium",
+    "titleRu": "Бельгия",
+    "titlePreciseRu": "Королевство Бельгии",
+    "flagUrl": "/flags/be.png"
+  },
+  {
+    "key": "bj",
+    "iso2": "BJ",
+    "titleEn": "Benin",
+    "titlePreciseEn": "Benin",
+    "titleRu": "Бенин",
+    "titlePreciseRu": "Республика Бенин",
+    "flagUrl": "/flags/bj.png"
+  },
+  {
+    "key": "bm",
+    "iso2": "BM",
+    "titleEn": "Bermuda",
+    "titlePreciseEn": "Bermuda",
+    "titleRu": "Бермуды",
+    "titlePreciseRu": "Бермуды",
+    "flagUrl": "/flags/bm.png"
+  },
+  {
+    "key": "bg",
+    "iso2": "BG",
+    "titleEn": "Bulgaria",
+    "titlePreciseEn": "Bulgaria",
+    "titleRu": "Болгария",
+    "titlePreciseRu": "Республика Болгария",
+    "flagUrl": "/flags/bg.png"
+  },
+  {
+    "key": "bo",
+    "iso2": "BO",
+    "titleEn": "Bolivia",
+    "titlePreciseEn": "Bolivia, plurinational state of",
+    "titleRu": "Боливия, Многонациональное Государство",
+    "titlePreciseRu": "Многонациональное Государство Боливия",
+    "flagUrl": "/flags/bo.png"
+  },
+  {
+    "key": "bq",
+    "iso2": "BQ",
+    "titleEn": "Bonaire, Sint Eustatius and Saba",
+    "titlePreciseEn": "Bonaire, Sint Eustatius and Saba",
+    "titleRu": "Бонайре, Саба и Синт-Эстатиус",
+    "titlePreciseRu": "Бонайре, Саба и Синт-Эстатиус",
+    "flagUrl": "/flags/bq.png"
+  },
+  {
+    "key": "ba",
+    "iso2": "BA",
+    "titleEn": "Bosnia and Herzegovina",
+    "titlePreciseEn": "Bosnia and Herzegovina",
+    "titleRu": "Босния и Герцеговина",
+    "titlePreciseRu": "Босния и Герцеговина",
+    "flagUrl": "/flags/ba.png"
+  },
+  {
+    "key": "bw",
+    "iso2": "BW",
+    "titleEn": "Botswana",
+    "titlePreciseEn": "Botswana",
+    "titleRu": "Ботсвана",
+    "titlePreciseRu": "Республика Ботсвана",
+    "flagUrl": "/flags/bw.png"
+  },
+  {
+    "key": "br",
+    "iso2": "BR",
+    "titleEn": "Brazil",
+    "titlePreciseEn": "Brazil",
+    "titleRu": "Бразилия",
+    "titlePreciseRu": "Федеративная Республика Бразилия",
+    "flagUrl": "/flags/br.png"
+  },
+  {
+    "key": "io",
+    "iso2": "IO",
+    "titleEn": "British Indian Ocean Territory",
+    "titlePreciseEn": "British Indian Ocean Territory",
+    "titleRu": "Британская территория в Индийском океане",
+    "titlePreciseRu": "Британская территория в Индийском океане",
+    "flagUrl": "/flags/io.png"
+  },
+  {
+    "key": "bn",
+    "iso2": "BN",
+    "titleEn": "Brunei Darussalam",
+    "titlePreciseEn": "Brunei Darussalam",
+    "titleRu": "Бруней-Даруссалам",
+    "titlePreciseRu": "Бруней-Даруссалам",
+    "flagUrl": "/flags/bn.png"
+  },
+  {
+    "key": "bf",
+    "iso2": "BF",
+    "titleEn": "Burkina Faso",
+    "titlePreciseEn": "Burkina Faso",
+    "titleRu": "Буркина-Фасо",
+    "titlePreciseRu": "Буркина-Фасо",
+    "flagUrl": "/flags/bf.png"
+  },
+  {
+    "key": "bi",
+    "iso2": "BI",
+    "titleEn": "Burundi",
+    "titlePreciseEn": "Burundi",
+    "titleRu": "Бурунди",
+    "titlePreciseRu": "Республика Бурунди",
+    "flagUrl": "/flags/bi.png"
+  },
+  {
+    "key": "bt",
+    "iso2": "BT",
+    "titleEn": "Bhutan",
+    "titlePreciseEn": "Bhutan",
+    "titleRu": "Бутан",
+    "titlePreciseRu": "Королевство Бутан",
+    "flagUrl": "/flags/bt.png"
+  },
+  {
+    "key": "vu",
+    "iso2": "VU",
+    "titleEn": "Vanuatu",
+    "titlePreciseEn": "Vanuatu",
+    "titleRu": "Вануату",
+    "titlePreciseRu": "Республика Вануату",
+    "flagUrl": "/flags/vu.png"
+  },
+  {
+    "key": "hu",
+    "iso2": "HU",
+    "titleEn": "Hungary",
+    "titlePreciseEn": "Hungary",
+    "titleRu": "Венгрия",
+    "titlePreciseRu": "Венгерская Республика",
+    "flagUrl": "/flags/hu.png"
+  },
+  {
+    "key": "ve",
+    "iso2": "VE",
+    "titleEn": "Venezuela",
+    "titlePreciseEn": "Venezuela",
+    "titleRu": "Венесуэла Боливарианская Республика",
+    "titlePreciseRu": "Боливарийская Республика Венесуэла",
+    "flagUrl": "/flags/ve.png"
+  },
+  {
+    "key": "vg",
+    "iso2": "VG",
+    "titleEn": "Virgin Islands (British)",
+    "titlePreciseEn": "Virgin Islands, British",
+    "titleRu": "Виргинские острова, Британские",
+    "titlePreciseRu": "Британские Виргинские острова",
+    "flagUrl": "/flags/vg.png"
+  },
+  {
+    "key": "vi",
+    "iso2": "VI",
+    "titleEn": "Virgin Islands (U.S.)",
+    "titlePreciseEn": "Virgin Islands, U.S.",
+    "titleRu": "Виргинские острова, США",
+    "titlePreciseRu": "Виргинские острова Соединенных Штатов",
+    "flagUrl": "/flags/vi.png"
+  },
+  {
+    "key": "vn",
+    "iso2": "VN",
+    "titleEn": "Vietnam",
+    "titlePreciseEn": "Vietnam",
+    "titleRu": "Вьетнам",
+    "titlePreciseRu": "Социалистическая Республика Вьетнам",
+    "flagUrl": "/flags/vn.png"
+  },
+  {
+    "key": "ga",
+    "iso2": "GA",
+    "titleEn": "Gabon",
+    "titlePreciseEn": "Gabon",
+    "titleRu": "Габон",
+    "titlePreciseRu": "Габонская Республика",
+    "flagUrl": "/flags/ga.png"
+  },
+  {
+    "key": "ht",
+    "iso2": "HT",
+    "titleEn": "Haiti",
+    "titlePreciseEn": "Haiti",
+    "titleRu": "Гаити",
+    "titlePreciseRu": "Республика Гаити",
+    "flagUrl": "/flags/ht.png"
+  },
+  {
+    "key": "gy",
+    "iso2": "GY",
+    "titleEn": "Guyana",
+    "titlePreciseEn": "Guyana",
+    "titleRu": "Гайана",
+    "titlePreciseRu": "Республика Гайана",
+    "flagUrl": "/flags/gy.png"
+  },
+  {
+    "key": "gm",
+    "iso2": "GM",
+    "titleEn": "Gambia",
+    "titlePreciseEn": "Gambia",
+    "titleRu": "Гамбия",
+    "titlePreciseRu": "Республика Гамбия",
+    "flagUrl": "/flags/gm.png"
+  },
+  {
+    "key": "gh",
+    "iso2": "GH",
+    "titleEn": "Ghana",
+    "titlePreciseEn": "Ghana",
+    "titleRu": "Гана",
+    "titlePreciseRu": "Республика Гана",
+    "flagUrl": "/flags/gh.png"
+  },
+  {
+    "key": "gp",
+    "iso2": "GP",
+    "titleEn": "Guadeloupe",
+    "titlePreciseEn": "Guadeloupe",
+    "titleRu": "Гваделупа",
+    "titlePreciseRu": "Гваделупа",
+    "flagUrl": "/flags/gp.png"
+  },
+  {
+    "key": "gt",
+    "iso2": "GT",
+    "titleEn": "Guatemala",
+    "titlePreciseEn": "Guatemala",
+    "titleRu": "Гватемала",
+    "titlePreciseRu": "Республика Гватемала",
+    "flagUrl": "/flags/gt.png"
+  },
+  {
+    "key": "gn",
+    "iso2": "GN",
+    "titleEn": "Guinea",
+    "titlePreciseEn": "Guinea",
+    "titleRu": "Гвинея",
+    "titlePreciseRu": "Гвинейская Республика",
+    "flagUrl": "/flags/gn.png"
+  },
+  {
+    "key": "gw",
+    "iso2": "GW",
+    "titleEn": "Guinea-Bissau",
+    "titlePreciseEn": "Guinea-Bissau",
+    "titleRu": "Гвинея-Бисау",
+    "titlePreciseRu": "Республика Гвинея-Бисау",
+    "flagUrl": "/flags/gw.png"
+  },
+  {
+    "key": "de",
+    "iso2": "DE",
+    "titleEn": "Germany",
+    "titlePreciseEn": "Germany",
+    "titleRu": "Германия",
+    "titlePreciseRu": "Федеративная Республика Германия",
+    "flagUrl": "/flags/de.png"
+  },
+  {
+    "key": "gg",
+    "iso2": "GG",
+    "titleEn": "Guernsey",
+    "titlePreciseEn": "Guernsey",
+    "titleRu": "Гернси",
+    "titlePreciseRu": "Гернси",
+    "flagUrl": "/flags/gg.png"
+  },
+  {
+    "key": "gi",
+    "iso2": "GI",
+    "titleEn": "Gibraltar",
+    "titlePreciseEn": "Gibraltar",
+    "titleRu": "Гибралтар",
+    "titlePreciseRu": "Гибралтар",
+    "flagUrl": "/flags/gi.png"
+  },
+  {
+    "key": "hn",
+    "iso2": "HN",
+    "titleEn": "Honduras",
+    "titlePreciseEn": "Honduras",
+    "titleRu": "Гондурас",
+    "titlePreciseRu": "Республика Гондурас",
+    "flagUrl": "/flags/hn.png"
+  },
+  {
+    "key": "hk",
+    "iso2": "HK",
+    "titleEn": "Hong Kong",
+    "titlePreciseEn": "Hong Kong",
+    "titleRu": "Гонконг",
+    "titlePreciseRu": "Специальный  административный  регион Китая Гонконг",
+    "flagUrl": "/flags/hk.png"
+  },
+  {
+    "key": "gd",
+    "iso2": "GD",
+    "titleEn": "Grenada",
+    "titlePreciseEn": "Grenada",
+    "titleRu": "Гренада",
+    "titlePreciseRu": "Гренада",
+    "flagUrl": "/flags/gd.png"
+  },
+  {
+    "key": "gl",
+    "iso2": "GL",
+    "titleEn": "Greenland",
+    "titlePreciseEn": "Greenland",
+    "titleRu": "Гренландия",
+    "titlePreciseRu": "Гренландия",
+    "flagUrl": "/flags/gl.png"
+  },
+  {
+    "key": "gr",
+    "iso2": "GR",
+    "titleEn": "Greece",
+    "titlePreciseEn": "Greece",
+    "titleRu": "Греция",
+    "titlePreciseRu": "Греческая Республика",
+    "flagUrl": "/flags/gr.png"
+  },
+  {
+    "key": "ge",
+    "iso2": "GE",
+    "titleEn": "Georgia",
+    "titlePreciseEn": "Georgia",
+    "titleRu": "Грузия",
+    "titlePreciseRu": "Грузия",
+    "flagUrl": "/flags/ge.png"
+  },
+  {
+    "key": "gu",
+    "iso2": "GU",
+    "titleEn": "Guam",
+    "titlePreciseEn": "Guam",
+    "titleRu": "Гуам",
+    "titlePreciseRu": "Гуам",
+    "flagUrl": "/flags/gu.png"
+  },
+  {
+    "key": "dk",
+    "iso2": "DK",
+    "titleEn": "Denmark",
+    "titlePreciseEn": "Denmark",
+    "titleRu": "Дания",
+    "titlePreciseRu": "Королевство Дания",
+    "flagUrl": "/flags/dk.png"
+  },
+  {
+    "key": "je",
+    "iso2": "JE",
+    "titleEn": "Jersey",
+    "titlePreciseEn": "Jersey",
+    "titleRu": "Джерси",
+    "titlePreciseRu": "Джерси",
+    "flagUrl": "/flags/je.png"
+  },
+  {
+    "key": "dj",
+    "iso2": "DJ",
+    "titleEn": "Djibouti",
+    "titlePreciseEn": "Djibouti",
+    "titleRu": "Джибути",
+    "titlePreciseRu": "Республика Джибути",
+    "flagUrl": "/flags/dj.png"
+  },
+  {
+    "key": "dm",
+    "iso2": "DM",
+    "titleEn": "Dominica",
+    "titlePreciseEn": "Dominica",
+    "titleRu": "Доминика",
+    "titlePreciseRu": "Содружество Доминики",
+    "flagUrl": "/flags/dm.png"
+  },
+  {
+    "key": "do",
+    "iso2": "DO",
+    "titleEn": "Dominican Republic",
+    "titlePreciseEn": "Dominican Republic",
+    "titleRu": "Доминиканская Республика",
+    "titlePreciseRu": "Доминиканская Республика",
+    "flagUrl": "/flags/do.png"
+  },
+  {
+    "key": "eg",
+    "iso2": "EG",
+    "titleEn": "Egypt",
+    "titlePreciseEn": "Egypt",
+    "titleRu": "Египет",
+    "titlePreciseRu": "Арабская Республика Египет",
+    "flagUrl": "/flags/eg.png"
+  },
+  {
+    "key": "zm",
+    "iso2": "ZM",
+    "titleEn": "Zambia",
+    "titlePreciseEn": "Zambia",
+    "titleRu": "Замбия",
+    "titlePreciseRu": "Республика Замбия",
+    "flagUrl": "/flags/zm.png"
+  },
+  {
+    "key": "eh",
+    "iso2": "EH",
+    "titleEn": "Western Sahara",
+    "titlePreciseEn": "Western Sahara",
+    "titleRu": "Западная Сахара",
+    "titlePreciseRu": "Западная Сахара",
+    "flagUrl": "/flags/eh.png"
+  },
+  {
+    "key": "zw",
+    "iso2": "ZW",
+    "titleEn": "Zimbabwe",
+    "titlePreciseEn": "Zimbabwe",
+    "titleRu": "Зимбабве",
+    "titlePreciseRu": "Республика Зимбабве",
+    "flagUrl": "/flags/zw.png"
+  },
+  {
+    "key": "il",
+    "iso2": "IL",
+    "titleEn": "Israel",
+    "titlePreciseEn": "Israel",
+    "titleRu": "Израиль",
+    "titlePreciseRu": "Государство Израиль",
+    "flagUrl": "/flags/il.png"
+  },
+  {
+    "key": "in",
+    "iso2": "IN",
+    "titleEn": "India",
+    "titlePreciseEn": "India",
+    "titleRu": "Индия",
+    "titlePreciseRu": "Республика Индия",
+    "flagUrl": "/flags/in.png"
+  },
+  {
+    "key": "id",
+    "iso2": "ID",
+    "titleEn": "Indonesia",
+    "titlePreciseEn": "Indonesia",
+    "titleRu": "Индонезия",
+    "titlePreciseRu": "Республика Индонезия",
+    "flagUrl": "/flags/id.png"
+  },
+  {
+    "key": "jo",
+    "iso2": "JO",
+    "titleEn": "Jordan",
+    "titlePreciseEn": "Jordan",
+    "titleRu": "Иордания",
+    "titlePreciseRu": "Иорданское Хашимитское Королевство",
+    "flagUrl": "/flags/jo.png"
+  },
+  {
+    "key": "iq",
+    "iso2": "IQ",
+    "titleEn": "Iraq",
+    "titlePreciseEn": "Iraq",
+    "titleRu": "Ирак",
+    "titlePreciseRu": "Республика Ирак",
+    "flagUrl": "/flags/iq.png"
+  },
+  {
+    "key": "ir",
+    "iso2": "IR",
+    "titleEn": "Iran",
+    "titlePreciseEn": "Iran",
+    "titleRu": "Иран, Исламская Республика",
+    "titlePreciseRu": "Исламская Республика Иран",
+    "flagUrl": "/flags/ir.png"
+  },
+  {
+    "key": "ie",
+    "iso2": "IE",
+    "titleEn": "Ireland",
+    "titlePreciseEn": "Ireland",
+    "titleRu": "Ирландия",
+    "titlePreciseRu": "Ирландия",
+    "flagUrl": "/flags/ie.png"
+  },
+  {
+    "key": "is",
+    "iso2": "IS",
+    "titleEn": "Iceland",
+    "titlePreciseEn": "Iceland",
+    "titleRu": "Исландия",
+    "titlePreciseRu": "Республика Исландия",
+    "flagUrl": "/flags/is.png"
+  },
+  {
+    "key": "es",
+    "iso2": "ES",
+    "titleEn": "Spain",
+    "titlePreciseEn": "Spain",
+    "titleRu": "Испания",
+    "titlePreciseRu": "Королевство Испания",
+    "flagUrl": "/flags/es.png"
+  },
+  {
+    "key": "it",
+    "iso2": "IT",
+    "titleEn": "Italy",
+    "titlePreciseEn": "Italy",
+    "titleRu": "Италия",
+    "titlePreciseRu": "Итальянская Республика",
+    "flagUrl": "/flags/it.png"
+  },
+  {
+    "key": "ye",
+    "iso2": "YE",
+    "titleEn": "Yemen",
+    "titlePreciseEn": "Yemen",
+    "titleRu": "Йемен",
+    "titlePreciseRu": "Йеменская Республика",
+    "flagUrl": "/flags/ye.png"
+  },
+  {
+    "key": "cv",
+    "iso2": "CV",
+    "titleEn": "Cabo Verde",
+    "titlePreciseEn": "Cape Verde",
+    "titleRu": "Кабо-Верде",
+    "titlePreciseRu": "Республика Кабо-Верде",
+    "flagUrl": "/flags/cv.png"
+  },
+  {
+    "key": "kz",
+    "iso2": "KZ",
+    "titleEn": "Kazakhstan",
+    "titlePreciseEn": "Kazakhstan",
+    "titleRu": "Казахстан",
+    "titlePreciseRu": "Республика Казахстан",
+    "flagUrl": "/flags/kz.png"
+  },
+  {
+    "key": "kh",
+    "iso2": "KH",
+    "titleEn": "Cambodia",
+    "titlePreciseEn": "Cambodia",
+    "titleRu": "Камбоджа",
+    "titlePreciseRu": "Королевство Камбоджа",
+    "flagUrl": "/flags/kh.png"
+  },
+  {
+    "key": "cm",
+    "iso2": "CM",
+    "titleEn": "Cameroon",
+    "titlePreciseEn": "Cameroon",
+    "titleRu": "Камерун",
+    "titlePreciseRu": "Республика Камерун",
+    "flagUrl": "/flags/cm.png"
+  },
+  {
+    "key": "ca",
+    "iso2": "CA",
+    "titleEn": "Canada",
+    "titlePreciseEn": "Canada",
+    "titleRu": "Канада",
+    "titlePreciseRu": "Канада",
+    "flagUrl": "/flags/ca.png"
+  },
+  {
+    "key": "qa",
+    "iso2": "QA",
+    "titleEn": "Qatar",
+    "titlePreciseEn": "Qatar",
+    "titleRu": "Катар",
+    "titlePreciseRu": "Государство Катар",
+    "flagUrl": "/flags/qa.png"
+  },
+  {
+    "key": "ke",
+    "iso2": "KE",
+    "titleEn": "Kenya",
+    "titlePreciseEn": "Kenya",
+    "titleRu": "Кения",
+    "titlePreciseRu": "Республика Кения",
+    "flagUrl": "/flags/ke.png"
+  },
+  {
+    "key": "cy",
+    "iso2": "CY",
+    "titleEn": "Cyprus",
+    "titlePreciseEn": "Cyprus",
+    "titleRu": "Кипр",
+    "titlePreciseRu": "Республика Кипр",
+    "flagUrl": "/flags/cy.png"
+  },
+  {
+    "key": "kg",
+    "iso2": "KG",
+    "titleEn": "Kyrgyzstan",
+    "titlePreciseEn": "Kyrgyzstan",
+    "titleRu": "Киргизия",
+    "titlePreciseRu": "Киргизская Республика",
+    "flagUrl": "/flags/kg.png"
+  },
+  {
+    "key": "ki",
+    "iso2": "KI",
+    "titleEn": "Kiribati",
+    "titlePreciseEn": "Kiribati",
+    "titleRu": "Кирибати",
+    "titlePreciseRu": "Республика Кирибати",
+    "flagUrl": "/flags/ki.png"
+  },
+  {
+    "key": "cn",
+    "iso2": "CN",
+    "titleEn": "China",
+    "titlePreciseEn": "China",
+    "titleRu": "Китай",
+    "titlePreciseRu": "Китайская Народная Республика",
+    "flagUrl": "/flags/cn.png"
+  },
+  {
+    "key": "cc",
+    "iso2": "CC",
+    "titleEn": "Cocos (Keeling) Islands",
+    "titlePreciseEn": "Cocos (Keeling) Islands",
+    "titleRu": "Кокосовые (Килинг) острова",
+    "titlePreciseRu": "Кокосовые (Килинг) острова",
+    "flagUrl": "/flags/cc.png"
+  },
+  {
+    "key": "co",
+    "iso2": "CO",
+    "titleEn": "Colombia",
+    "titlePreciseEn": "Colombia",
+    "titleRu": "Колумбия",
+    "titlePreciseRu": "Республика Колумбия",
+    "flagUrl": "/flags/co.png"
+  },
+  {
+    "key": "km",
+    "iso2": "KM",
+    "titleEn": "Comoros",
+    "titlePreciseEn": "Comoros",
+    "titleRu": "Коморы",
+    "titlePreciseRu": "Союз Коморы",
+    "flagUrl": "/flags/km.png"
+  },
+  {
+    "key": "cg",
+    "iso2": "CG",
+    "titleEn": "Republic of the Congo",
+    "titlePreciseEn": "Congo",
+    "titleRu": "Конго",
+    "titlePreciseRu": "Республика Конго",
+    "flagUrl": "/flags/cg.png"
+  },
+  {
+    "key": "cd",
+    "iso2": "CD",
+    "titleEn": "Democratic Republic of the Congo",
+    "titlePreciseEn": "Congo, Democratic Republic of the",
+    "titleRu": "Конго, Демократическая Республика",
+    "titlePreciseRu": "Демократическая Республика Конго",
+    "flagUrl": "/flags/cd.png"
+  },
+  {
+    "key": "kp",
+    "iso2": "KP",
+    "titleEn": "North Korea",
+    "titlePreciseEn": "Korea, Democratic People's republic of",
+    "titleRu": "Корея, Народно-Демократическая Республика",
+    "titlePreciseRu": "Корейская Народно-Демократическая Республика",
+    "flagUrl": "/flags/kp.png"
+  },
+  {
+    "key": "kr",
+    "iso2": "KR",
+    "titleEn": "South Korea",
+    "titlePreciseEn": "South Korea",
+    "titleRu": "Корея, Республика",
+    "titlePreciseRu": "Республика Корея",
+    "flagUrl": "/flags/kr.png"
+  },
+  {
+    "key": "cr",
+    "iso2": "CR",
+    "titleEn": "Costa Rica",
+    "titlePreciseEn": "Costa Rica",
+    "titleRu": "Коста-Рика",
+    "titlePreciseRu": "Республика Коста-Рика",
+    "flagUrl": "/flags/cr.png"
+  },
+  {
+    "key": "ci",
+    "iso2": "CI",
+    "titleEn": "Côte d'Ivoire",
+    "titlePreciseEn": "Cote d'Ivoire",
+    "titleRu": "Кот д'Ивуар",
+    "titlePreciseRu": "Республика Кот д'Ивуар",
+    "flagUrl": "/flags/ci.png"
+  },
+  {
+    "key": "cu",
+    "iso2": "CU",
+    "titleEn": "Cuba",
+    "titlePreciseEn": "Cuba",
+    "titleRu": "Куба",
+    "titlePreciseRu": "Республика Куба",
+    "flagUrl": "/flags/cu.png"
+  },
+  {
+    "key": "kw",
+    "iso2": "KW",
+    "titleEn": "Kuwait",
+    "titlePreciseEn": "Kuwait",
+    "titleRu": "Кувейт",
+    "titlePreciseRu": "Государство Кувейт",
+    "flagUrl": "/flags/kw.png"
+  },
+  {
+    "key": "cw",
+    "iso2": "CW",
+    "titleEn": "Curaçao",
+    "titlePreciseEn": "Curaçao",
+    "titleRu": "Кюрасао",
+    "titlePreciseRu": "Кюрасао",
+    "flagUrl": "/flags/cw.png"
+  },
+  {
+    "key": "la",
+    "iso2": "LA",
+    "titleEn": "Laos",
+    "titlePreciseEn": "Lao People's Democratic Republic",
+    "titleRu": "Лаос",
+    "titlePreciseRu": "Лаосская Народно-Демократическая Республика",
+    "flagUrl": "/flags/la.png"
+  },
+  {
+    "key": "lv",
+    "iso2": "LV",
+    "titleEn": "Latvia",
+    "titlePreciseEn": "Latvia",
+    "titleRu": "Латвия",
+    "titlePreciseRu": "Латвийская Республика",
+    "flagUrl": "/flags/lv.png"
+  },
+  {
+    "key": "ls",
+    "iso2": "LS",
+    "titleEn": "Lesotho",
+    "titlePreciseEn": "Lesotho",
+    "titleRu": "Лесото",
+    "titlePreciseRu": "Королевство Лесото",
+    "flagUrl": "/flags/ls.png"
+  },
+  {
+    "key": "lb",
+    "iso2": "LB",
+    "titleEn": "Lebanon",
+    "titlePreciseEn": "Lebanon",
+    "titleRu": "Ливан",
+    "titlePreciseRu": "Ливанская Республика",
+    "flagUrl": "/flags/lb.png"
+  },
+  {
+    "key": "ly",
+    "iso2": "LY",
+    "titleEn": "Libya",
+    "titlePreciseEn": "Libyan Arab Jamahiriya",
+    "titleRu": "Ливийская Арабская Джамахирия",
+    "titlePreciseRu": "Социалистическая Народная Ливийская Арабская Джамахирия",
+    "flagUrl": "/flags/ly.png"
+  },
+  {
+    "key": "lr",
+    "iso2": "LR",
+    "titleEn": "Liberia",
+    "titlePreciseEn": "Liberia",
+    "titleRu": "Либерия",
+    "titlePreciseRu": "Республика Либерия",
+    "flagUrl": "/flags/lr.png"
+  },
+  {
+    "key": "li",
+    "iso2": "LI",
+    "titleEn": "Liechtenstein",
+    "titlePreciseEn": "Liechtenstein",
+    "titleRu": "Лихтенштейн",
+    "titlePreciseRu": "Княжество Лихтенштейн",
+    "flagUrl": "/flags/li.png"
+  },
+  {
+    "key": "lt",
+    "iso2": "LT",
+    "titleEn": "Lithuania",
+    "titlePreciseEn": "Lithuania",
+    "titleRu": "Литва",
+    "titlePreciseRu": "Литовская Республика",
+    "flagUrl": "/flags/lt.png"
+  },
+  {
+    "key": "lu",
+    "iso2": "LU",
+    "titleEn": "Luxembourg",
+    "titlePreciseEn": "Luxembourg",
+    "titleRu": "Люксембург",
+    "titlePreciseRu": "Великое Герцогство Люксембург",
+    "flagUrl": "/flags/lu.png"
+  },
+  {
+    "key": "mu",
+    "iso2": "MU",
+    "titleEn": "Mauritius",
+    "titlePreciseEn": "Mauritius",
+    "titleRu": "Маврикий",
+    "titlePreciseRu": "Республика Маврикий",
+    "flagUrl": "/flags/mu.png"
+  },
+  {
+    "key": "mr",
+    "iso2": "MR",
+    "titleEn": "Mauritania",
+    "titlePreciseEn": "Mauritania",
+    "titleRu": "Мавритания",
+    "titlePreciseRu": "Исламская Республика Мавритания",
+    "flagUrl": "/flags/mr.png"
+  },
+  {
+    "key": "mg",
+    "iso2": "MG",
+    "titleEn": "Madagascar",
+    "titlePreciseEn": "Madagascar",
+    "titleRu": "Мадагаскар",
+    "titlePreciseRu": "Республика Мадагаскар",
+    "flagUrl": "/flags/mg.png"
+  },
+  {
+    "key": "yt",
+    "iso2": "YT",
+    "titleEn": "Mayotte",
+    "titlePreciseEn": "Mayotte",
+    "titleRu": "Майотта",
+    "titlePreciseRu": "Майотта",
+    "flagUrl": "/flags/yt.png"
+  },
+  {
+    "key": "mo",
+    "iso2": "MO",
+    "titleEn": "Macau",
+    "titlePreciseEn": "Macao",
+    "titleRu": "Макао",
+    "titlePreciseRu": "Специальный административный регион Китая Макао",
+    "flagUrl": "/flags/mo.png"
+  },
+  {
+    "key": "mw",
+    "iso2": "MW",
+    "titleEn": "Malawi",
+    "titlePreciseEn": "Malawi",
+    "titleRu": "Малави",
+    "titlePreciseRu": "Республика Малави",
+    "flagUrl": "/flags/mw.png"
+  },
+  {
+    "key": "my",
+    "iso2": "MY",
+    "titleEn": "Malaysia",
+    "titlePreciseEn": "Malaysia",
+    "titleRu": "Малайзия",
+    "titlePreciseRu": "Малайзия",
+    "flagUrl": "/flags/my.png"
+  },
+  {
+    "key": "ml",
+    "iso2": "ML",
+    "titleEn": "Mali",
+    "titlePreciseEn": "Mali",
+    "titleRu": "Мали",
+    "titlePreciseRu": "Республика Мали",
+    "flagUrl": "/flags/ml.png"
+  },
+  {
+    "key": "um",
+    "iso2": "UM",
+    "titleEn": "United States Minor Outlying Islands",
+    "titlePreciseEn": "United States Minor Outlying Islands",
+    "titleRu": "Малые Тихоокеанские отдаленные острова Соединенных Штатов",
+    "titlePreciseRu": "Малые Тихоокеанские отдаленные острова Соединенных Штатов",
+    "flagUrl": "/flags/um.png"
+  },
+  {
+    "key": "mv",
+    "iso2": "MV",
+    "titleEn": "Maldives",
+    "titlePreciseEn": "Maldives",
+    "titleRu": "Мальдивы",
+    "titlePreciseRu": "Мальдивская Республика",
+    "flagUrl": "/flags/mv.png"
+  },
+  {
+    "key": "mt",
+    "iso2": "MT",
+    "titleEn": "Malta",
+    "titlePreciseEn": "Malta",
+    "titleRu": "Мальта",
+    "titlePreciseRu": "Республика Мальта",
+    "flagUrl": "/flags/mt.png"
+  },
+  {
+    "key": "ma",
+    "iso2": "MA",
+    "titleEn": "Morocco",
+    "titlePreciseEn": "Morocco",
+    "titleRu": "Марокко",
+    "titlePreciseRu": "Королевство Марокко",
+    "flagUrl": "/flags/ma.png"
+  },
+  {
+    "key": "mq",
+    "iso2": "MQ",
+    "titleEn": "Martinique",
+    "titlePreciseEn": "Martinique",
+    "titleRu": "Мартиника",
+    "titlePreciseRu": "Мартиника",
+    "flagUrl": "/flags/mq.png"
+  },
+  {
+    "key": "mh",
+    "iso2": "MH",
+    "titleEn": "Marshall Islands",
+    "titlePreciseEn": "Marshall Islands",
+    "titleRu": "Маршалловы острова",
+    "titlePreciseRu": "Республика Маршалловы острова",
+    "flagUrl": "/flags/mh.png"
+  },
+  {
+    "key": "mx",
+    "iso2": "MX",
+    "titleEn": "Mexico",
+    "titlePreciseEn": "Mexico",
+    "titleRu": "Мексика",
+    "titlePreciseRu": "Мексиканские Соединенные Штаты",
+    "flagUrl": "/flags/mx.png"
+  },
+  {
+    "key": "fm",
+    "iso2": "FM",
+    "titleEn": "Federated States of Micronesia",
+    "titlePreciseEn": "Micronesia, Federated States of",
+    "titleRu": "Микронезия, Федеративные Штаты",
+    "titlePreciseRu": "Федеративные штаты Микронезии",
+    "flagUrl": "/flags/fm.png"
+  },
+  {
+    "key": "mz",
+    "iso2": "MZ",
+    "titleEn": "Mozambique",
+    "titlePreciseEn": "Mozambique",
+    "titleRu": "Мозамбик",
+    "titlePreciseRu": "Республика Мозамбик",
+    "flagUrl": "/flags/mz.png"
+  },
+  {
+    "key": "md",
+    "iso2": "MD",
+    "titleEn": "Moldova",
+    "titlePreciseEn": "Moldova",
+    "titleRu": "Молдова, Республика",
+    "titlePreciseRu": "Республика Молдова",
+    "flagUrl": "/flags/md.png"
+  },
+  {
+    "key": "mc",
+    "iso2": "MC",
+    "titleEn": "Monaco",
+    "titlePreciseEn": "Monaco",
+    "titleRu": "Монако",
+    "titlePreciseRu": "Княжество Монако",
+    "flagUrl": "/flags/mc.png"
+  },
+  {
+    "key": "mn",
+    "iso2": "MN",
+    "titleEn": "Mongolia",
+    "titlePreciseEn": "Mongolia",
+    "titleRu": "Монголия",
+    "titlePreciseRu": "Монголия",
+    "flagUrl": "/flags/mn.png"
+  },
+  {
+    "key": "ms",
+    "iso2": "MS",
+    "titleEn": "Montserrat",
+    "titlePreciseEn": "Montserrat",
+    "titleRu": "Монтсеррат",
+    "titlePreciseRu": "Монтсеррат",
+    "flagUrl": "/flags/ms.png"
+  },
+  {
+    "key": "mm",
+    "iso2": "MM",
+    "titleEn": "Myanmar",
+    "titlePreciseEn": "Burma",
+    "titleRu": "Мьянма",
+    "titlePreciseRu": "Союз Мьянма",
+    "flagUrl": "/flags/mm.png"
+  },
+  {
+    "key": "na",
+    "iso2": "NA",
+    "titleEn": "Namibia",
+    "titlePreciseEn": "Namibia",
+    "titleRu": "Намибия",
+    "titlePreciseRu": "Республика Намибия",
+    "flagUrl": "/flags/na.png"
+  },
+  {
+    "key": "nr",
+    "iso2": "NR",
+    "titleEn": "Nauru",
+    "titlePreciseEn": "Nauru",
+    "titleRu": "Науру",
+    "titlePreciseRu": "Республика Науру",
+    "flagUrl": "/flags/nr.png"
+  },
+  {
+    "key": "np",
+    "iso2": "NP",
+    "titleEn": "Nepal",
+    "titlePreciseEn": "Nepal",
+    "titleRu": "Непал",
+    "titlePreciseRu": "Королевство Непал",
+    "flagUrl": "/flags/np.png"
+  },
+  {
+    "key": "ne",
+    "iso2": "NE",
+    "titleEn": "Niger",
+    "titlePreciseEn": "Niger",
+    "titleRu": "Нигер",
+    "titlePreciseRu": "Республика Нигер",
+    "flagUrl": "/flags/ne.png"
+  },
+  {
+    "key": "ng",
+    "iso2": "NG",
+    "titleEn": "Nigeria",
+    "titlePreciseEn": "Nigeria",
+    "titleRu": "Нигерия",
+    "titlePreciseRu": "Федеративная Республика Нигерия",
+    "flagUrl": "/flags/ng.png"
+  },
+  {
+    "key": "nl",
+    "iso2": "NL",
+    "titleEn": "Netherlands",
+    "titlePreciseEn": "Netherlands",
+    "titleRu": "Нидерланды",
+    "titlePreciseRu": "Королевство Нидерландов",
+    "flagUrl": "/flags/nl.png"
+  },
+  {
+    "key": "ni",
+    "iso2": "NI",
+    "titleEn": "Nicaragua",
+    "titlePreciseEn": "Nicaragua",
+    "titleRu": "Никарагуа",
+    "titlePreciseRu": "Республика Никарагуа",
+    "flagUrl": "/flags/ni.png"
+  },
+  {
+    "key": "nu",
+    "iso2": "NU",
+    "titleEn": "Niue",
+    "titlePreciseEn": "Niue",
+    "titleRu": "Ниуэ",
+    "titlePreciseRu": "Республика Ниуэ",
+    "flagUrl": "/flags/nu.png"
+  },
+  {
+    "key": "nz",
+    "iso2": "NZ",
+    "titleEn": "New Zealand",
+    "titlePreciseEn": "New Zealand",
+    "titleRu": "Новая Зеландия",
+    "titlePreciseRu": "Новая Зеландия",
+    "flagUrl": "/flags/nz.png"
+  },
+  {
+    "key": "nc",
+    "iso2": "NC",
+    "titleEn": "New Caledonia",
+    "titlePreciseEn": "New Caledonia",
+    "titleRu": "Новая Каледония",
+    "titlePreciseRu": "Новая Каледония",
+    "flagUrl": "/flags/nc.png"
+  },
+  {
+    "key": "no",
+    "iso2": "NO",
+    "titleEn": "Norway",
+    "titlePreciseEn": "Norway",
+    "titleRu": "Норвегия",
+    "titlePreciseRu": "Королевство Норвегия",
+    "flagUrl": "/flags/no.png"
+  },
+  {
+    "key": "ae",
+    "iso2": "AE",
+    "titleEn": "United Arab Emirates",
+    "titlePreciseEn": "United Arab Emirates",
+    "titleRu": "Объединенные Арабские Эмираты",
+    "titlePreciseRu": "Объединенные Арабские Эмираты",
+    "flagUrl": "/flags/ae.png"
+  },
+  {
+    "key": "om",
+    "iso2": "OM",
+    "titleEn": "Oman",
+    "titlePreciseEn": "Oman",
+    "titleRu": "Оман",
+    "titlePreciseRu": "Султанат Оман",
+    "flagUrl": "/flags/om.png"
+  },
+  {
+    "key": "bv",
+    "iso2": "BV",
+    "titleEn": "Bouvet Island",
+    "titlePreciseEn": "Bouvet Island",
+    "titleRu": "Остров Буве",
+    "titlePreciseRu": "Остров Буве",
+    "flagUrl": "/flags/bv.png"
+  },
+  {
+    "key": "im",
+    "iso2": "IM",
+    "titleEn": "Isle of Man",
+    "titlePreciseEn": "Isle of Man",
+    "titleRu": "Остров Мэн",
+    "titlePreciseRu": "Остров Мэн",
+    "flagUrl": "/flags/im.png"
+  },
+  {
+    "key": "nf",
+    "iso2": "NF",
+    "titleEn": "Norfolk Island",
+    "titlePreciseEn": "Norfolk Island",
+    "titleRu": "Остров Норфолк",
+    "titlePreciseRu": "Остров Норфолк",
+    "flagUrl": "/flags/nf.png"
+  },
+  {
+    "key": "cx",
+    "iso2": "CX",
+    "titleEn": "Christmas Island",
+    "titlePreciseEn": "Christmas Island",
+    "titleRu": "Остров Рождества",
+    "titlePreciseRu": "Остров Рождества",
+    "flagUrl": "/flags/cx.png"
+  },
+  {
+    "key": "hm",
+    "iso2": "HM",
+    "titleEn": "Heard Island and McDonald Islands",
+    "titlePreciseEn": "Heard Island and McDonald Islands",
+    "titleRu": "Остров Херд и острова Макдональд",
+    "titlePreciseRu": "Остров Херд и острова Макдональд",
+    "flagUrl": "/flags/hm.png"
+  },
+  {
+    "key": "ky",
+    "iso2": "KY",
+    "titleEn": "Cayman Islands",
+    "titlePreciseEn": "Cayman Islands",
+    "titleRu": "Острова Кайман",
+    "titlePreciseRu": "Острова Кайман",
+    "flagUrl": "/flags/ky.png"
+  },
+  {
+    "key": "ck",
+    "iso2": "CK",
+    "titleEn": "Cook Islands",
+    "titlePreciseEn": "Cook Islands",
+    "titleRu": "Острова Кука",
+    "titlePreciseRu": "Острова Кука",
+    "flagUrl": "/flags/ck.png"
+  },
+  {
+    "key": "tc",
+    "iso2": "TC",
+    "titleEn": "Turks and Caicos Islands",
+    "titlePreciseEn": "Turks and Caicos Islands",
+    "titleRu": "Острова Теркс и Кайкос",
+    "titlePreciseRu": "Острова Теркс и Кайкос",
+    "flagUrl": "/flags/tc.png"
+  },
+  {
+    "key": "pk",
+    "iso2": "PK",
+    "titleEn": "Pakistan",
+    "titlePreciseEn": "Pakistan",
+    "titleRu": "Пакистан",
+    "titlePreciseRu": "Исламская Республика Пакистан",
+    "flagUrl": "/flags/pk.png"
+  },
+  {
+    "key": "pw",
+    "iso2": "PW",
+    "titleEn": "Palau",
+    "titlePreciseEn": "Palau",
+    "titleRu": "Палау",
+    "titlePreciseRu": "Республика Палау",
+    "flagUrl": "/flags/pw.png"
+  },
+  {
+    "key": "ps",
+    "iso2": "PS",
+    "titleEn": "State of Palestine",
+    "titlePreciseEn": "Palestinian Territory, Occupied",
+    "titleRu": "Палестинская территория, оккупированная",
+    "titlePreciseRu": "Оккупированная Палестинская территория",
+    "flagUrl": "/flags/ps.png"
+  },
+  {
+    "key": "pa",
+    "iso2": "PA",
+    "titleEn": "Panama",
+    "titlePreciseEn": "Panama",
+    "titleRu": "Панама",
+    "titlePreciseRu": "Республика Панама",
+    "flagUrl": "/flags/pa.png"
+  },
+  {
+    "key": "va",
+    "iso2": "VA",
+    "titleEn": "Holy See",
+    "titlePreciseEn": "Holy See (Vatican City State)",
+    "titleRu": "Папский Престол (Государство &mdash; город Ватикан)",
+    "titlePreciseRu": "Папский Престол (Государство &mdash; город Ватикан)",
+    "flagUrl": "/flags/va.png"
+  },
+  {
+    "key": "pg",
+    "iso2": "PG",
+    "titleEn": "Papua New Guinea",
+    "titlePreciseEn": "Papua New Guinea",
+    "titleRu": "Папуа-Новая Гвинея",
+    "titlePreciseRu": "Папуа-Новая Гвинея",
+    "flagUrl": "/flags/pg.png"
+  },
+  {
+    "key": "py",
+    "iso2": "PY",
+    "titleEn": "Paraguay",
+    "titlePreciseEn": "Paraguay",
+    "titleRu": "Парагвай",
+    "titlePreciseRu": "Республика Парагвай",
+    "flagUrl": "/flags/py.png"
+  },
+  {
+    "key": "pe",
+    "iso2": "PE",
+    "titleEn": "Peru",
+    "titlePreciseEn": "Peru",
+    "titleRu": "Перу",
+    "titlePreciseRu": "Республика Перу",
+    "flagUrl": "/flags/pe.png"
+  },
+  {
+    "key": "pn",
+    "iso2": "PN",
+    "titleEn": "Pitcairn",
+    "titlePreciseEn": "Pitcairn",
+    "titleRu": "Питкерн",
+    "titlePreciseRu": "Питкерн",
+    "flagUrl": "/flags/pn.png"
+  },
+  {
+    "key": "pl",
+    "iso2": "PL",
+    "titleEn": "Poland",
+    "titlePreciseEn": "Poland",
+    "titleRu": "Польша",
+    "titlePreciseRu": "Республика Польша",
+    "flagUrl": "/flags/pl.png"
+  },
+  {
+    "key": "pt",
+    "iso2": "PT",
+    "titleEn": "Portugal",
+    "titlePreciseEn": "Portugal",
+    "titleRu": "Португалия",
+    "titlePreciseRu": "Португальская Республика",
+    "flagUrl": "/flags/pt.png"
+  },
+  {
+    "key": "pr",
+    "iso2": "PR",
+    "titleEn": "Puerto Rico",
+    "titlePreciseEn": "Puerto Rico",
+    "titleRu": "Пуэрто-Рико",
+    "titlePreciseRu": "Пуэрто-Рико",
+    "flagUrl": "/flags/pr.png"
+  },
+  {
+    "key": "mk",
+    "iso2": "MK",
+    "titleEn": "North Macedonia",
+    "titlePreciseEn": "Macedonia, The Former Yugoslav Republic Of",
+    "titleRu": "Республика Македония",
+    "titlePreciseRu": "Республика Македония",
+    "flagUrl": "/flags/mk.png"
+  },
+  {
+    "key": "re",
+    "iso2": "RE",
+    "titleEn": "Réunion",
+    "titlePreciseEn": "Reunion",
+    "titleRu": "Реюньон",
+    "titlePreciseRu": "Реюньон",
+    "flagUrl": "/flags/re.png"
+  },
+  {
+    "key": "ru",
+    "iso2": "RU",
+    "titleEn": "Russia",
+    "titlePreciseEn": "Russia",
+    "titleRu": "Россия",
+    "titlePreciseRu": "Российская Федерация",
+    "flagUrl": "/flags/ru.png"
+  },
+  {
+    "key": "rw",
+    "iso2": "RW",
+    "titleEn": "Rwanda",
+    "titlePreciseEn": "Rwanda",
+    "titleRu": "Руанда",
+    "titlePreciseRu": "Руандийская Республика",
+    "flagUrl": "/flags/rw.png"
+  },
+  {
+    "key": "ro",
+    "iso2": "RO",
+    "titleEn": "Romania",
+    "titlePreciseEn": "Romania",
+    "titleRu": "Румыния",
+    "titlePreciseRu": "Румыния",
+    "flagUrl": "/flags/ro.png"
+  },
+  {
+    "key": "ws",
+    "iso2": "WS",
+    "titleEn": "Samoa",
+    "titlePreciseEn": "Samoa",
+    "titleRu": "Самоа",
+    "titlePreciseRu": "Независимое Государство Самоа",
+    "flagUrl": "/flags/ws.png"
+  },
+  {
+    "key": "sm",
+    "iso2": "SM",
+    "titleEn": "San Marino",
+    "titlePreciseEn": "San Marino",
+    "titleRu": "Сан-Марино",
+    "titlePreciseRu": "Республика Сан-Марино",
+    "flagUrl": "/flags/sm.png"
+  },
+  {
+    "key": "st",
+    "iso2": "ST",
+    "titleEn": "Sao Tome and Principe",
+    "titlePreciseEn": "Sao Tome and Principe",
+    "titleRu": "Сан-Томе и Принсипи",
+    "titlePreciseRu": "Демократическая Республика Сан-Томе и Принсипи",
+    "flagUrl": "/flags/st.png"
+  },
+  {
+    "key": "sa",
+    "iso2": "SA",
+    "titleEn": "Saudi Arabia",
+    "titlePreciseEn": "Saudi Arabia",
+    "titleRu": "Саудовская Аравия",
+    "titlePreciseRu": "Королевство Саудовская Аравия",
+    "flagUrl": "/flags/sa.png"
+  },
+  {
+    "key": "sz",
+    "iso2": "SZ",
+    "titleEn": "Eswatini",
+    "titlePreciseEn": "Swaziland",
+    "titleRu": "Свазиленд",
+    "titlePreciseRu": "Королевство Свазиленд",
+    "flagUrl": "/flags/sz.png"
+  },
+  {
+    "key": "sh",
+    "iso2": "SH",
+    "titleEn": "Saint Helena, Ascension and Tristan da Cunha",
+    "titlePreciseEn": "Saint Helena, Ascension And Tristan Da Cunha",
+    "titleRu": "Святая Елена, Остров вознесения, Тристан-да-Кунья",
+    "titlePreciseRu": "Святая Елена, Остров вознесения, Тристан-да-Кунья",
+    "flagUrl": "/flags/sh.png"
+  },
+  {
+    "key": "mp",
+    "iso2": "MP",
+    "titleEn": "Northern Mariana Islands",
+    "titlePreciseEn": "Northern Mariana Islands",
+    "titleRu": "Северные Марианские острова",
+    "titlePreciseRu": "Содружество Северных Марианских островов",
+    "flagUrl": "/flags/mp.png"
+  },
+  {
+    "key": "bl",
+    "iso2": "BL",
+    "titleEn": "Saint Barthélemy",
+    "titlePreciseEn": "Saint Barthélemy",
+    "titleRu": "Сен-Бартельми",
+    "titlePreciseRu": "Сен-Бартельми",
+    "flagUrl": "/flags/bl.png"
+  },
+  {
+    "key": "mf",
+    "iso2": "MF",
+    "titleEn": "Saint Martin",
+    "titlePreciseEn": "Saint Martin (French Part)",
+    "titleRu": "Сен-Мартен",
+    "titlePreciseRu": "Сен-Мартен",
+    "flagUrl": "/flags/mf.png"
+  },
+  {
+    "key": "sn",
+    "iso2": "SN",
+    "titleEn": "Senegal",
+    "titlePreciseEn": "Senegal",
+    "titleRu": "Сенегал",
+    "titlePreciseRu": "Республика Сенегал",
+    "flagUrl": "/flags/sn.png"
+  },
+  {
+    "key": "vc",
+    "iso2": "VC",
+    "titleEn": "Saint Vincent and the Grenadines",
+    "titlePreciseEn": "Saint Vincent and the Grenadines",
+    "titleRu": "Сент-Винсент и Гренадины",
+    "titlePreciseRu": "Сент-Винсент и Гренадины",
+    "flagUrl": "/flags/vc.png"
+  },
+  {
+    "key": "kn",
+    "iso2": "KN",
+    "titleEn": "Saint Kitts and Nevis",
+    "titlePreciseEn": "Saint Kitts and Nevis",
+    "titleRu": "Сент-Китс и Невис",
+    "titlePreciseRu": "Сент-Китс и Невис",
+    "flagUrl": "/flags/kn.png"
+  },
+  {
+    "key": "lc",
+    "iso2": "LC",
+    "titleEn": "Saint Lucia",
+    "titlePreciseEn": "Saint Lucia",
+    "titleRu": "Сент-Люсия",
+    "titlePreciseRu": "Сент-Люсия",
+    "flagUrl": "/flags/lc.png"
+  },
+  {
+    "key": "pm",
+    "iso2": "PM",
+    "titleEn": "Saint Pierre and Miquelon",
+    "titlePreciseEn": "Saint Pierre and Miquelon",
+    "titleRu": "Сент-Пьер и Микелон",
+    "titlePreciseRu": "Сент-Пьер и Микелон",
+    "flagUrl": "/flags/pm.png"
+  },
+  {
+    "key": "rs",
+    "iso2": "RS",
+    "titleEn": "Serbia",
+    "titlePreciseEn": "Serbia",
+    "titleRu": "Сербия",
+    "titlePreciseRu": "Республика Сербия",
+    "flagUrl": "/flags/rs.png"
+  },
+  {
+    "key": "sc",
+    "iso2": "SC",
+    "titleEn": "Seychelles",
+    "titlePreciseEn": "Seychelles",
+    "titleRu": "Сейшелы",
+    "titlePreciseRu": "Республика Сейшелы",
+    "flagUrl": "/flags/sc.png"
+  },
+  {
+    "key": "sg",
+    "iso2": "SG",
+    "titleEn": "Singapore",
+    "titlePreciseEn": "Singapore",
+    "titleRu": "Сингапур",
+    "titlePreciseRu": "Республика Сингапур",
+    "flagUrl": "/flags/sg.png"
+  },
+  {
+    "key": "sx",
+    "iso2": "SX",
+    "titleEn": "Sint Maarten",
+    "titlePreciseEn": "Sint Maarten",
+    "titleRu": "Синт-Мартен",
+    "titlePreciseRu": "Синт-Мартен",
+    "flagUrl": "/flags/sx.png"
+  },
+  {
+    "key": "sy",
+    "iso2": "SY",
+    "titleEn": "Syria",
+    "titlePreciseEn": "Syrian Arab Republic",
+    "titleRu": "Сирийская Арабская Республика",
+    "titlePreciseRu": "Сирийская Арабская Республика",
+    "flagUrl": "/flags/sy.png"
+  },
+  {
+    "key": "sk",
+    "iso2": "SK",
+    "titleEn": "Slovakia",
+    "titlePreciseEn": "Slovakia",
+    "titleRu": "Словакия",
+    "titlePreciseRu": "Словацкая Республика",
+    "flagUrl": "/flags/sk.png"
+  },
+  {
+    "key": "si",
+    "iso2": "SI",
+    "titleEn": "Slovenia",
+    "titlePreciseEn": "Slovenia",
+    "titleRu": "Словения",
+    "titlePreciseRu": "Республика Словения",
+    "flagUrl": "/flags/si.png"
+  },
+  {
+    "key": "gb",
+    "iso2": "GB",
+    "titleEn": "United Kingdom",
+    "titlePreciseEn": "United Kingdom",
+    "titleRu": "Соединенное Королевство",
+    "titlePreciseRu": "Соединенное Королевство Великобритании и Северной Ирландии",
+    "flagUrl": "/flags/gb.png"
+  },
+  {
+    "key": "us",
+    "iso2": "US",
+    "titleEn": "USA",
+    "titlePreciseEn": "United States",
+    "titleRu": "Соединенные Штаты",
+    "titlePreciseRu": "Соединенные Штаты Америки",
+    "flagUrl": "/flags/us.png"
+  },
+  {
+    "key": "sb",
+    "iso2": "SB",
+    "titleEn": "Solomon Islands",
+    "titlePreciseEn": "Solomon Islands",
+    "titleRu": "Соломоновы острова",
+    "titlePreciseRu": "Соломоновы острова",
+    "flagUrl": "/flags/sb.png"
+  },
+  {
+    "key": "so",
+    "iso2": "SO",
+    "titleEn": "Somalia",
+    "titlePreciseEn": "Somalia",
+    "titleRu": "Сомали",
+    "titlePreciseRu": "Сомалийская Республика",
+    "flagUrl": "/flags/so.png"
+  },
+  {
+    "key": "sd",
+    "iso2": "SD",
+    "titleEn": "Sudan",
+    "titlePreciseEn": "Sudan",
+    "titleRu": "Судан",
+    "titlePreciseRu": "Республика Судан",
+    "flagUrl": "/flags/sd.png"
+  },
+  {
+    "key": "sr",
+    "iso2": "SR",
+    "titleEn": "Suriname",
+    "titlePreciseEn": "Suriname",
+    "titleRu": "Суринам",
+    "titlePreciseRu": "Республика Суринам",
+    "flagUrl": "/flags/sr.png"
+  },
+  {
+    "key": "sl",
+    "iso2": "SL",
+    "titleEn": "Sierra Leone",
+    "titlePreciseEn": "Sierra Leone",
+    "titleRu": "Сьерра-Леоне",
+    "titlePreciseRu": "Республика Сьерра-Леоне",
+    "flagUrl": "/flags/sl.png"
+  },
+  {
+    "key": "tj",
+    "iso2": "TJ",
+    "titleEn": "Tajikistan",
+    "titlePreciseEn": "Tajikistan",
+    "titleRu": "Таджикистан",
+    "titlePreciseRu": "Республика Таджикистан",
+    "flagUrl": "/flags/tj.png"
+  },
+  {
+    "key": "th",
+    "iso2": "TH",
+    "titleEn": "Thailand",
+    "titlePreciseEn": "Thailand",
+    "titleRu": "Таиланд",
+    "titlePreciseRu": "Королевство Таиланд",
+    "flagUrl": "/flags/th.png"
+  },
+  {
+    "key": "tw",
+    "iso2": "TW",
+    "titleEn": "Taiwan",
+    "titlePreciseEn": "Taiwan, Province of China",
+    "titleRu": "Тайвань (Китай)",
+    "titlePreciseRu": "Тайвань (Китай)",
+    "flagUrl": "/flags/tw.png"
+  },
+  {
+    "key": "tz",
+    "iso2": "TZ",
+    "titleEn": "Tanzania",
+    "titlePreciseEn": "Tanzania, United Republic Of",
+    "titleRu": "Танзания, Объединенная Республика",
+    "titlePreciseRu": "Объединенная Республика Танзания",
+    "flagUrl": "/flags/tz.png"
+  },
+  {
+    "key": "tl",
+    "iso2": "TL",
+    "titleEn": "Timor-Leste",
+    "titlePreciseEn": "Timor-Leste",
+    "titleRu": "Тимор-Лесте",
+    "titlePreciseRu": "Демократическая Республика Тимор-Лесте",
+    "flagUrl": "/flags/tl.png"
+  },
+  {
+    "key": "tg",
+    "iso2": "TG",
+    "titleEn": "Togo",
+    "titlePreciseEn": "Togo",
+    "titleRu": "Того",
+    "titlePreciseRu": "Тоголезская Республика",
+    "flagUrl": "/flags/tg.png"
+  },
+  {
+    "key": "tk",
+    "iso2": "TK",
+    "titleEn": "Tokelau",
+    "titlePreciseEn": "Tokelau",
+    "titleRu": "Токелау",
+    "titlePreciseRu": "Токелау",
+    "flagUrl": "/flags/tk.png"
+  },
+  {
+    "key": "to",
+    "iso2": "TO",
+    "titleEn": "Tonga",
+    "titlePreciseEn": "Tonga",
+    "titleRu": "Тонга",
+    "titlePreciseRu": "Королевство Тонга",
+    "flagUrl": "/flags/to.png"
+  },
+  {
+    "key": "tt",
+    "iso2": "TT",
+    "titleEn": "Trinidad and Tobago",
+    "titlePreciseEn": "Trinidad and Tobago",
+    "titleRu": "Тринидад и Тобаго",
+    "titlePreciseRu": "Республика Тринидад и Тобаго",
+    "flagUrl": "/flags/tt.png"
+  },
+  {
+    "key": "tv",
+    "iso2": "TV",
+    "titleEn": "Tuvalu",
+    "titlePreciseEn": "Tuvalu",
+    "titleRu": "Тувалу",
+    "titlePreciseRu": "Тувалу",
+    "flagUrl": "/flags/tv.png"
+  },
+  {
+    "key": "tn",
+    "iso2": "TN",
+    "titleEn": "Tunisia",
+    "titlePreciseEn": "Tunisia",
+    "titleRu": "Тунис",
+    "titlePreciseRu": "Тунисская Республика",
+    "flagUrl": "/flags/tn.png"
+  },
+  {
+    "key": "tm",
+    "iso2": "TM",
+    "titleEn": "Turkmenistan",
+    "titlePreciseEn": "Turkmenistan",
+    "titleRu": "Туркмения",
+    "titlePreciseRu": "Туркменистан",
+    "flagUrl": "/flags/tm.png"
+  },
+  {
+    "key": "tr",
+    "iso2": "TR",
+    "titleEn": "Turkey",
+    "titlePreciseEn": "Turkey",
+    "titleRu": "Турция",
+    "titlePreciseRu": "Турецкая Республика",
+    "flagUrl": "/flags/tr.png"
+  },
+  {
+    "key": "ug",
+    "iso2": "UG",
+    "titleEn": "Uganda",
+    "titlePreciseEn": "Uganda",
+    "titleRu": "Уганда",
+    "titlePreciseRu": "Республика Уганда",
+    "flagUrl": "/flags/ug.png"
+  },
+  {
+    "key": "uz",
+    "iso2": "UZ",
+    "titleEn": "Uzbekistan",
+    "titlePreciseEn": "Uzbekistan",
+    "titleRu": "Узбекистан",
+    "titlePreciseRu": "Республика Узбекистан",
+    "flagUrl": "/flags/uz.png"
+  },
+  {
+    "key": "ua",
+    "iso2": "UA",
+    "titleEn": "Ukraine",
+    "titlePreciseEn": "Ukraine",
+    "titleRu": "Украина",
+    "titlePreciseRu": "Украина",
+    "flagUrl": "/flags/ua.png"
+  },
+  {
+    "key": "wf",
+    "iso2": "WF",
+    "titleEn": "Wallis and Futuna",
+    "titlePreciseEn": "Wallis and Futuna",
+    "titleRu": "Уоллис и Футуна",
+    "titlePreciseRu": "Уоллис и Футуна",
+    "flagUrl": "/flags/wf.png"
+  },
+  {
+    "key": "uy",
+    "iso2": "UY",
+    "titleEn": "Uruguay",
+    "titlePreciseEn": "Uruguay",
+    "titleRu": "Уругвай",
+    "titlePreciseRu": "Восточная Республика Уругвай",
+    "flagUrl": "/flags/uy.png"
+  },
+  {
+    "key": "fo",
+    "iso2": "FO",
+    "titleEn": "Faroe Islands",
+    "titlePreciseEn": "Faroe Islands",
+    "titleRu": "Фарерские острова",
+    "titlePreciseRu": "Фарерские острова",
+    "flagUrl": "/flags/fo.png"
+  },
+  {
+    "key": "fj",
+    "iso2": "FJ",
+    "titleEn": "Fiji",
+    "titlePreciseEn": "Fiji",
+    "titleRu": "Фиджи",
+    "titlePreciseRu": "Республика островов Фиджи",
+    "flagUrl": "/flags/fj.png"
+  },
+  {
+    "key": "ph",
+    "iso2": "PH",
+    "titleEn": "Philippines",
+    "titlePreciseEn": "Philippines",
+    "titleRu": "Филиппины",
+    "titlePreciseRu": "Республика Филиппины",
+    "flagUrl": "/flags/ph.png"
+  },
+  {
+    "key": "fi",
+    "iso2": "FI",
+    "titleEn": "Finland",
+    "titlePreciseEn": "Finland",
+    "titleRu": "Финляндия",
+    "titlePreciseRu": "Финляндская Республика",
+    "flagUrl": "/flags/fi.png"
+  },
+  {
+    "key": "fk",
+    "iso2": "FK",
+    "titleEn": "Falkland Islands",
+    "titlePreciseEn": "Falkland Islands (Malvinas)",
+    "titleRu": "Фолклендские острова (Мальвинские)",
+    "titlePreciseRu": "Фолклендские острова (Мальвинские)",
+    "flagUrl": "/flags/fk.png"
+  },
+  {
+    "key": "fr",
+    "iso2": "FR",
+    "titleEn": "France",
+    "titlePreciseEn": "France",
+    "titleRu": "Франция",
+    "titlePreciseRu": "Французская Республика",
+    "flagUrl": "/flags/fr.png"
+  },
+  {
+    "key": "gf",
+    "iso2": "GF",
+    "titleEn": "French Guiana",
+    "titlePreciseEn": "French Guiana",
+    "titleRu": "Французская Гвиана",
+    "titlePreciseRu": "Французская Гвиана",
+    "flagUrl": "/flags/gf.png"
+  },
+  {
+    "key": "pf",
+    "iso2": "PF",
+    "titleEn": "French Polynesia",
+    "titlePreciseEn": "French Polynesia",
+    "titleRu": "Французская Полинезия",
+    "titlePreciseRu": "Французская Полинезия",
+    "flagUrl": "/flags/pf.png"
+  },
+  {
+    "key": "tf",
+    "iso2": "TF",
+    "titleEn": "French Southern Territories",
+    "titlePreciseEn": "French Southern Territories",
+    "titleRu": "Французские Южные территории",
+    "titlePreciseRu": "Французские Южные территории",
+    "flagUrl": "/flags/tf.png"
+  },
+  {
+    "key": "hr",
+    "iso2": "HR",
+    "titleEn": "Croatia",
+    "titlePreciseEn": "Croatia",
+    "titleRu": "Хорватия",
+    "titlePreciseRu": "Республика Хорватия",
+    "flagUrl": "/flags/hr.png"
+  },
+  {
+    "key": "cf",
+    "iso2": "CF",
+    "titleEn": "Central African Republic",
+    "titlePreciseEn": "Central African Republic",
+    "titleRu": "Центрально-Африканская Республика",
+    "titlePreciseRu": "Центрально-Африканская Республика",
+    "flagUrl": "/flags/cf.png"
+  },
+  {
+    "key": "td",
+    "iso2": "TD",
+    "titleEn": "Chad",
+    "titlePreciseEn": "Chad",
+    "titleRu": "Чад",
+    "titlePreciseRu": "Республика Чад",
+    "flagUrl": "/flags/td.png"
+  },
+  {
+    "key": "me",
+    "iso2": "ME",
+    "titleEn": "Montenegro",
+    "titlePreciseEn": "Montenegro",
+    "titleRu": "Черногория",
+    "titlePreciseRu": "Республика Черногория",
+    "flagUrl": "/flags/me.png"
+  },
+  {
+    "key": "cz",
+    "iso2": "CZ",
+    "titleEn": "Czech Republic",
+    "titlePreciseEn": "Czech Republic",
+    "titleRu": "Чешская Республика",
+    "titlePreciseRu": "Чешская Республика",
+    "flagUrl": "/flags/cz.png"
+  },
+  {
+    "key": "cl",
+    "iso2": "CL",
+    "titleEn": "Chile",
+    "titlePreciseEn": "Chile",
+    "titleRu": "Чили",
+    "titlePreciseRu": "Республика Чили",
+    "flagUrl": "/flags/cl.png"
+  },
+  {
+    "key": "ch",
+    "iso2": "CH",
+    "titleEn": "Switzerland",
+    "titlePreciseEn": "Switzerland",
+    "titleRu": "Швейцария",
+    "titlePreciseRu": "Швейцарская Конфедерация",
+    "flagUrl": "/flags/ch.png"
+  },
+  {
+    "key": "se",
+    "iso2": "SE",
+    "titleEn": "Sweden",
+    "titlePreciseEn": "Sweden",
+    "titleRu": "Швеция",
+    "titlePreciseRu": "Королевство Швеция",
+    "flagUrl": "/flags/se.png"
+  },
+  {
+    "key": "sj",
+    "iso2": "SJ",
+    "titleEn": "Svalbard and Jan Mayen",
+    "titlePreciseEn": "Svalbard and Jan Mayen",
+    "titleRu": "Шпицберген и Ян Майен",
+    "titlePreciseRu": "Шпицберген и Ян Майен",
+    "flagUrl": "/flags/sj.png"
+  },
+  {
+    "key": "lk",
+    "iso2": "LK",
+    "titleEn": "Sri Lanka",
+    "titlePreciseEn": "Sri Lanka",
+    "titleRu": "Шри-Ланка",
+    "titlePreciseRu": "Демократическая Социалистическая Республика Шри-Ланка",
+    "flagUrl": "/flags/lk.png"
+  },
+  {
+    "key": "ec",
+    "iso2": "EC",
+    "titleEn": "Ecuador",
+    "titlePreciseEn": "Ecuador",
+    "titleRu": "Эквадор",
+    "titlePreciseRu": "Республика Эквадор",
+    "flagUrl": "/flags/ec.png"
+  },
+  {
+    "key": "gq",
+    "iso2": "GQ",
+    "titleEn": "Equatorial Guinea",
+    "titlePreciseEn": "Equatorial Guinea",
+    "titleRu": "Экваториальная Гвинея",
+    "titlePreciseRu": "Республика Экваториальная Гвинея",
+    "flagUrl": "/flags/gq.png"
+  },
+  {
+    "key": "ax",
+    "iso2": "AX",
+    "titleEn": "Aland Islands",
+    "titlePreciseEn": "Åland Islands",
+    "titleRu": "Эландские острова",
+    "titlePreciseRu": "Эландские острова",
+    "flagUrl": "/flags/ax.png"
+  },
+  {
+    "key": "sv",
+    "iso2": "SV",
+    "titleEn": "El Salvador",
+    "titlePreciseEn": "El Salvador",
+    "titleRu": "Эль-Сальвадор",
+    "titlePreciseRu": "Республика Эль-Сальвадор",
+    "flagUrl": "/flags/sv.png"
+  },
+  {
+    "key": "er",
+    "iso2": "ER",
+    "titleEn": "Eritrea",
+    "titlePreciseEn": "Eritrea",
+    "titleRu": "Эритрея",
+    "titlePreciseRu": "Эритрея",
+    "flagUrl": "/flags/er.png"
+  },
+  {
+    "key": "ee",
+    "iso2": "EE",
+    "titleEn": "Estonia",
+    "titlePreciseEn": "Estonia",
+    "titleRu": "Эстония",
+    "titlePreciseRu": "Эстонская Республика",
+    "flagUrl": "/flags/ee.png"
+  },
+  {
+    "key": "et",
+    "iso2": "ET",
+    "titleEn": "Ethiopia",
+    "titlePreciseEn": "Ethiopia",
+    "titleRu": "Эфиопия",
+    "titlePreciseRu": "Федеративная Демократическая Республика Эфиопия",
+    "flagUrl": "/flags/et.png"
+  },
+  {
+    "key": "za",
+    "iso2": "ZA",
+    "titleEn": "South Africa",
+    "titlePreciseEn": "South Africa",
+    "titleRu": "Южная Африка",
+    "titlePreciseRu": "Южно-Африканская Республика",
+    "flagUrl": "/flags/za.png"
+  },
+  {
+    "key": "gs",
+    "iso2": "GS",
+    "titleEn": "South Georgia and the South Sandwich Islands",
+    "titlePreciseEn": "South Georgia and the South Sandwich Islands",
+    "titleRu": "Южная Джорджия и Южные Сандвичевы острова",
+    "titlePreciseRu": "Южная Джорджия и Южные Сандвичевы острова",
+    "flagUrl": "/flags/gs.png"
+  },
+  {
+    "key": "os",
+    "iso2": "OS",
+    "titleEn": "South Ossetia",
+    "titlePreciseEn": "South Ossetia",
+    "titleRu": "Южная Осетия",
+    "titlePreciseRu": "Республика Южная Осетия",
+    "flagUrl": "/flags/os.png"
+  },
+  {
+    "key": "ss",
+    "iso2": "SS",
+    "titleEn": "South Sudan",
+    "titlePreciseEn": "South Sudan",
+    "titleRu": "Южный Судан",
+    "titlePreciseRu": "Южный Судан",
+    "flagUrl": "/flags/ss.png"
+  },
+  {
+    "key": "jm",
+    "iso2": "JM",
+    "titleEn": "Jamaica",
+    "titlePreciseEn": "Jamaica",
+    "titleRu": "Ямайка",
+    "titlePreciseRu": "Ямайка",
+    "flagUrl": "/flags/jm.png"
+  },
+  {
+    "key": "jp",
+    "iso2": "JP",
+    "titleEn": "Japan",
+    "titlePreciseEn": "Japan",
+    "titleRu": "Япония",
+    "titlePreciseRu": "Япония",
+    "flagUrl": "/flags/jp.png"
+  },
+  {
+    "key": "ac",
+    "iso2": "AC",
+    "titleEn": "Ascension Island",
+    "titlePreciseEn": "Ascension Island",
+    "titleRu": "AC",
+    "titlePreciseRu": "AC",
+    "flagUrl": "/flags/ac.png"
+  },
+  {
+    "key": "cefta",
+    "iso2": "CEFTA",
+    "titleEn": "Central European Free Trade Agreement",
+    "titlePreciseEn": "Central European Free Trade Agreement",
+    "titleRu": "CEFTA",
+    "titlePreciseRu": "CEFTA",
+    "flagUrl": "/flags/cefta.png"
+  },
+  {
+    "key": "cp",
+    "iso2": "CP",
+    "titleEn": "Clipperton Island",
+    "titlePreciseEn": "Clipperton Island",
+    "titleRu": "CP",
+    "titlePreciseRu": "CP",
+    "flagUrl": "/flags/cp.png"
+  },
+  {
+    "key": "dg",
+    "iso2": "DG",
+    "titleEn": "Diego Garcia",
+    "titlePreciseEn": "Diego Garcia",
+    "titleRu": "DG",
+    "titlePreciseRu": "DG",
+    "flagUrl": "/flags/dg.png"
+  },
+  {
+    "key": "ea",
+    "iso2": "EA",
+    "titleEn": "Ceuta & Melilla",
+    "titlePreciseEn": "Ceuta & Melilla",
+    "titleRu": "EA",
+    "titlePreciseRu": "EA",
+    "flagUrl": "/flags/ea.png"
+  },
+  {
+    "key": "es-ct",
+    "iso2": "ES-CT",
+    "titleEn": "Catalonia",
+    "titlePreciseEn": "Catalonia",
+    "titleRu": "ES-CT",
+    "titlePreciseRu": "ES-CT",
+    "flagUrl": "/flags/es-ct.png"
+  },
+  {
+    "key": "es-ga",
+    "iso2": "ES-GA",
+    "titleEn": "Galicia",
+    "titlePreciseEn": "Galicia",
+    "titleRu": "ES-GA",
+    "titlePreciseRu": "ES-GA",
+    "flagUrl": "/flags/es-ga.png"
+  },
+  {
+    "key": "eu",
+    "iso2": "EU",
+    "titleEn": "Europe",
+    "titlePreciseEn": "Europe",
+    "titleRu": "EU",
+    "titlePreciseRu": "EU",
+    "flagUrl": "/flags/eu.png"
+  },
+  {
+    "key": "gb-eng",
+    "iso2": "GB-ENG",
+    "titleEn": "England",
+    "titlePreciseEn": "England",
+    "titleRu": "GB-ENG",
+    "titlePreciseRu": "GB-ENG",
+    "flagUrl": "/flags/gb-eng.png"
+  },
+  {
+    "key": "gb-nir",
+    "iso2": "GB-NIR",
+    "titleEn": "Northern Ireland",
+    "titlePreciseEn": "Northern Ireland",
+    "titleRu": "GB-NIR",
+    "titlePreciseRu": "GB-NIR",
+    "flagUrl": "/flags/gb-nir.png"
+  },
+  {
+    "key": "gb-sct",
+    "iso2": "GB-SCT",
+    "titleEn": "Scotland",
+    "titlePreciseEn": "Scotland",
+    "titleRu": "GB-SCT",
+    "titlePreciseRu": "GB-SCT",
+    "flagUrl": "/flags/gb-sct.png"
+  },
+  {
+    "key": "gb-wls",
+    "iso2": "GB-WLS",
+    "titleEn": "Wales",
+    "titlePreciseEn": "Wales",
+    "titleRu": "GB-WLS",
+    "titlePreciseRu": "GB-WLS",
+    "flagUrl": "/flags/gb-wls.png"
+  },
+  {
+    "key": "ic",
+    "iso2": "IC",
+    "titleEn": "Canary Islands",
+    "titlePreciseEn": "Canary Islands",
+    "titleRu": "IC",
+    "titlePreciseRu": "IC",
+    "flagUrl": "/flags/ic.png"
+  },
+  {
+    "key": "ta",
+    "iso2": "TA",
+    "titleEn": "Tristan da Cunha",
+    "titlePreciseEn": "Tristan da Cunha",
+    "titleRu": "TA",
+    "titlePreciseRu": "TA",
+    "flagUrl": "/flags/ta.png"
+  },
+  {
+    "key": "un",
+    "iso2": "UN",
+    "titleEn": "United Nations",
+    "titlePreciseEn": "United Nations",
+    "titleRu": "UN",
+    "titlePreciseRu": "UN",
+    "flagUrl": "/flags/un.png"
+  },
+  {
+    "key": "xk",
+    "iso2": "XK",
+    "titleEn": "Kosovo",
+    "titlePreciseEn": "Kosovo",
+    "titleRu": "XK",
+    "titlePreciseRu": "XK",
+    "flagUrl": "/flags/xk.png"
+  },
+  {
+    "key": "total",
+    "iso2": "TOTAL",
+    "titleEn": "Total",
+    "titlePreciseEn": "Total",
+    "titleRu": "Итого",
+    "titlePreciseRu": "Итого",
+    "isTotal": true,
+    "isComposite": true,
+    "flagUrl": "/flags/total.png"
+  },
+  {
+    "key": "other",
+    "iso2": "OTHER",
+    "titleEn": "Other",
+    "titlePreciseEn": "Other",
+    "titleRu": "Другие",
+    "titlePreciseRu": "Другие",
+    "isOther": true,
+    "isComposite": true,
+    "flagUrl": "/flags/other.png"
+  },
+  {
+    "key": "unknown",
+    "iso2": "UNKNOWN",
+    "titleEn": "Unknown",
+    "titlePreciseEn": "Unknown",
+    "titleRu": "Неизвестно",
+    "titlePreciseRu": "Неизвестно",
+    "isUnknown": true,
+    "isComposite": true,
+    "flagUrl": "/flags/unknown.png"
+  }
+]

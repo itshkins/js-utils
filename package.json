@@ -2,7 +2,7 @@
   "name": "@itshkins/js-utils",
   "type": "module",
   "version": "1.1.28",
-  "description": "DOM utils",
+  "description": "JavaScript utils",
   "main": "./dist/js-utils.cjs",
   "browser": "./dist/js-utils.js",
   "types": "./dist/js-utils.d.js",
@@ -44,6 +44,9 @@
     "url": "https://github.com/itshkins/js-utils/issues"
   },
   "homepage": "https://github.com/itshkins/js-utils#readme",
+  "dependencies": {
+    "dayjs": "1.11.10"
+  },
   "devDependencies": {
     "@jest/globals": "29.5.0",
     "@types/jest": "29.5.2",
