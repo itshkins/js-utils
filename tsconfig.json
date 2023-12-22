@@ -1,13 +1,11 @@
 {
   "compilerOptions": {
-    "target": "es6",
+    "target": "esnext",
     "module": "commonjs",
     "moduleDetection": "auto",
     "moduleResolution": "node",
     "isolatedModules": false,
-    "lib": [
-      "esnext"
-    ],
+    "lib": ["esnext"],
     "declaration": true,
     "emitDeclarationOnly": true,
     "sourceMap": true,
@@ -26,7 +24,8 @@
     "stripInternal": true,
     "downlevelIteration": true,
     "noUnusedLocals": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true
   },
   "include": [
     "src/**/*.ts"

@@ -1,0 +1,15 @@
+export declare function getNominativeMaleOrder(value: number): string;
+export declare function getGenitiveFemaleOrder(value: number): string;
+export declare function getAccusativeFemaleOrder(value: number, orderValues: [string, string, string]): string;
+export declare function formatSize(size: any, sizeFactor?: number): string;
+export declare function formatNumber(number: unknown, fractionDigits?: number, decimalPoint?: string, thousandSeparator?: string, defaultValue?: string): string;
+export declare function roundNumber(number: number, factor: number, onRound?: (x: number) => number): number;
+export declare function roundDecimalNumber(number: number, precision: number, onRound?: (x: number) => number): number | undefined;
+export declare function getPercentage(thisValue: any, prevValue: any): number | undefined;
+export declare function getPercentageDecimals(percentage: any): 1 | 0;
+export declare function formatPercentage(percentage: any): string;
+export type GetNumber<TItem> = (item: TItem) => number;
+export declare function calcAsc<TItem>(a: TItem, b: TItem, getValue?: GetNumber<TItem>): number;
+export declare function calcDesc<TItem>(a: TItem, b: TItem, getValue?: GetNumber<TItem>): number;
+export declare function compareAsc<TItem>(getValue?: GetNumber<TItem>): (a: TItem, b: TItem) => number;
+export declare function compareDesc<TItem>(getValue?: GetNumber<TItem>): (a: TItem, b: TItem) => number;

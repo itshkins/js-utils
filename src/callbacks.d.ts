@@ -1,0 +1,17 @@
+export declare const NOOP: (_?: unknown) => undefined;
+export declare const YES: () => boolean;
+export declare const NO: () => boolean;
+export declare const TOGGLE: (v: any) => boolean;
+export declare const GET_ARRAY: () => readonly any[];
+export declare const GET_OBJECT: () => any;
+export declare const IDENTITY: (v: any) => any;
+export declare const IDENTITIES: (...v: any[]) => any[];
+export declare const HAS_ITEMS: (v: unknown[]) => boolean;
+export declare const SET_FILTER: (item: any, index: any, array: any) => boolean;
+export declare const SORT_NUMBER: (number: any, otherNumber: any) => number;
+export declare const TO_NUMBER: (value: any) => number | undefined;
+export declare const UNIQUE: <TItem>(array: readonly TItem[]) => TItem[];
+export declare function flushDefers(defers: (() => void)[]): void;
+export declare function sleep(ms: number, onLog?: (message: unknown) => void): Promise<unknown>;
+export declare function loopCallback(key: string, callback: () => Promise<any>, firstInterval: number, nextInterval?: number): void;
+export declare function promises(keyToPromise: Record<string, Promise<unknown>>): Promise<{}>;
